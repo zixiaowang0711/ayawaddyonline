@@ -1,0 +1,20 @@
+.contact-rich {
+  h4 {
+  }
+  hr {
+    border-style: dashed;
+  }
+  .block {
+    @include display(flex);
+    .icon {
+      width: 3.5rem;
+      i {
+        font-size: 2rem;
+      }
+    }
+    .data {
+    }
+  }
+}
+.contact-form {
+}

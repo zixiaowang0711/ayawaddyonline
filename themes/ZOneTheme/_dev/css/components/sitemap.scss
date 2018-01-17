@@ -1,0 +1,63 @@
+.sitemap {
+  .tree-top {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .category-sitemap {
+    .tree {
+      padding-left: 0;
+      > li {
+        list-style: none;
+        > a {
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 110%;
+          display: block;
+          margin-bottom: 12px;
+        }
+        > ul.nested {
+          @include display(flex);
+          @include flex-wrap(wrap);
+          padding-left: 0;
+          padding-right: 0;
+          margin-left: -10px;
+          margin-right: -10px;
+          > li {
+            width: 100%;
+            list-style: none;
+            padding: 0 10px;
+            @include media-breakpoint-up(md) {
+              width: percentage(1/2);
+            }
+            @include media-breakpoint-up(xl) {
+              width: percentage(1/3);
+            }
+            > a {
+              font-weight: 700;
+              display: block;
+              margin-bottom: 7px;
+            }
+            > ul.nested {
+              list-style: none;
+              border-left: 1px solid $border-color-lighten;
+              ul {
+                margin-bottom: 0;
+              }
+              > li > a {
+                position: relative;
+                &:before {
+                  content: '';
+                  position: absolute;
+                  width: 10px;
+                  left: -15px;
+                  top: 50%;
+                  border-top: 1px solid $border-color-lighten;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

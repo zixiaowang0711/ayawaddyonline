@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl" source-language="de-DE" target-language="de-DE" datatype="plaintext">
+    <body>
+      <trans-unit id="0db377921f4ce762c62526131097968f">
+        <source>General</source>
+        <target>General</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="bf50d5e661106d0abe925af3c2e6f7e7">
+        <source>Header</source>
+        <target>Header</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:35</note>
+      </trans-unit>
+      <trans-unit id="ded40f2a77c30efc6062db0cbd857746">
+        <source>Footer</source>
+        <target>Footer</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:38</note>
+      </trans-unit>
+      <trans-unit id="175103bab005a71c49c7ef675c1304cd">
+        <source>Category Page</source>
+        <target>Category Page</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="235e8d1a54ecddcf1d3ff533331ed416">
+        <source>Product Page</source>
+        <target>Product Page</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:44</note>
+      </trans-unit>
+      <trans-unit id="878d8b307d9f478aed64b500e381ae10">
+        <source>Import Sample Configuration</source>
+        <target>Import Sample Configuration</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonethememanager/views/templates/admin/settings_form.tpl:49</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

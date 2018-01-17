@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonebrandlogo/views/templates/hook/zonebrandlogo.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="dd6943d5e59c8fedde4adb05e0a124f6">
+        <source>Popular Brands</source>
+        <target>Marques Populaires</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonebrandlogo/views/templates/hook/zonebrandlogo.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="3d239913d5e5922e77e81814960b9942">
+        <source>Preview Colors</source>
+        <target>Aperçu des couleurs</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="6d1ca8184c6a1f11ecccfa17f8f9048a">
+        <source>Boxed</source>
+        <target>Mode Boite</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="e7c770a61dbdf81ca922ae0260e327c1">
+        <source>Wide</source>
+        <target>Large</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="45fd2cb3f26f2edf9165feeb4411608a">
+        <source>Pick a color, then click OK</source>
+        <target>Choisissez une couleur, puis cliquez sur OK</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="b5859d8721cfdc0312b2838b9c985bc1">
+        <source>RESET</source>
+        <target>Réinitialiser</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:83</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/category-container.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="0a18f0aa51f30f1107495bf639caf16c">
+        <source>Shop Now</source>
+        <target>Achetez Maintenant</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/category-container.tpl:53</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/zonefeaturedcategories.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="96b4cf26fa238554ffbc7cefc17a5250">
+        <source>Featured Categories</source>
+        <target>Catégories Représentées</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/zonefeaturedcategories.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonehomeblocks/views/templates/hook/zonehometabs.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="925dc7757bc7a9926f13546bb8260267">
+        <source>Show More</source>
+        <target>Afficher plus</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonehomeblocks/views/templates/hook/zonehometabs.tpl:57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonepopupnewsletter/views/templates/hook/zonepopupnewsletter.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="e202ca64fbdafd978aadd3d2e9db7aad">
+        <source>Do not show this popup again.</source>
+        <target>Ne plus montrer ce popup.</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonepopupnewsletter/views/templates/hook/zonepopupnewsletter.tpl:51</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerafter.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="e58c27818bf68b1f92513ad4f99972c4">
+        <source>Back to Top</source>
+        <target>Retour haut de page</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerafter.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
+        <source>Information</source>
+        <target>Informations</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="c0812f7b2ab78e609eaa4f90c279f193">
+        <source>Our Stores</source>
+        <target>Nos magasins</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:39</note>
+      </trans-unit>
+      <trans-unit id="d6fe218e309b5bb2993ca31eed509667">
+        <source>Price Drop</source>
+        <target>Promotions</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="1529636c2dd134b028a08f7b131115b5">
+        <source>New Products</source>
+        <target>Nouveaux produits</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:43</note>
+      </trans-unit>
+      <trans-unit id="e4e3e01496bc4f69bb08fc7da19f6d45">
+        <source>Best Sales</source>
+        <target>Meilleures ventes</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="02d4482d332e1aef3437cd61c9bcc624">
+        <source>Contact us</source>
+        <target>Contactez-nous</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:47</note>
+      </trans-unit>
+      <trans-unit id="5813ce0ec7196c492c97596718f71969">
+        <source>Sitemap</source>
+        <target>Plan du site</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:49</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice" source-language="fr-FR" target-language="fr-FR" datatype="plaintext">
+    <body>
+      <trans-unit id="1114f83bc04d9ac8cdb6accff6f21c55">
+        <source>No Dropdown</source>
+        <target>No Dropdown</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="a100ce579d1ed4c3761ff37c1988bef3">
+        <source>No Content</source>
+        <target>No Content</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="2377be3c2ad9b435ba277a73f0f1ca76">
+        <source>Manufacturers</source>
+        <target>Manufacturers</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="512923e3b931df3400cc06287e7541cc">
+        <source>Custom HTML</source>
+        <target>Custom HTML</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131">
+        <source>Products</source>
+        <target>Products</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categories</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="54ca84a794888fe8d92834787dfa935a">
+        <source>columns</source>
+        <target>columns</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="1afd32818d1c9525f82aff4c09efd254">
+        <source>column</source>
+        <target>column</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

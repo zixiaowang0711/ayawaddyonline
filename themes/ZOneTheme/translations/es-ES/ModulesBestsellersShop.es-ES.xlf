@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.tpl" source-language="es-ES" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="d7b2933ba512ada478c97fa43dd7ebe6">
+        <source>Best Sellers</source>
+        <target>Los más vendidos</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="eae99cd6a931f3553123420b16383812">
+        <source>All best sellers</source>
+        <target>Los productos más vendidos</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_bestsellers/views/templates/hook/ps_bestsellers.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

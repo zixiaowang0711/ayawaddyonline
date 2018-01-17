@@ -1,0 +1,135 @@
+.tab-pane.panel {
+	margin: 0px;
+}
+
+.adv-table table tr td {
+	padding: 10px;
+}
+
+.adv-table table.display thead th {
+	border-bottom: 1px solid #DDDDDD;
+	padding: 10px;
+}
+
+.adv-table table.display tr.odd.gradeA {
+	background-color: #F9F9F9;
+}
+
+.adv-table table.display tr.even.gradeA {
+	background-color: #FFFFFF;
+}
+
+.adv-table .dataTables_filter label input {
+	float: right;
+	margin-left: 10px;
+	width: 78%;
+}
+
+.adv-table .dataTables_filter label {
+	line-height: 33px;
+	width: 100%;
+}
+
+.adv-table .dataTables_length select {
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px 8px;
+	width: 65px;
+}
+
+.adv-table .dataTables_info,.dataTables_paginate {
+	padding: 15px 0;
+}
+
+.adv-table .dataTables_length,.adv-table .dataTables_filter {
+	padding: 15px 0;
+}
+
+.hidden-table-info i {
+	border: 1px solid #dbdce4;
+	color: #1fb5ad;
+	padding: 5px;
+}
+
+.hidden-table-info i.icon-minus {
+	color: #DF7B7B;
+}
+
+.hidden-table-info {
+	width: 10px;
+	cursor: pointer;
+}
+
+.alert-success {
+    background-color: #dff0d8 !important;
+}
+
+.btn-group-action .btn-group {
+white-space: nowrap;
+}
+
+.btn-group-action .btn-group>a, .btn-group-action .btn-group button {
+	float:none;	
+}
+
+.btn-group-action .btn-group>a:first-child {
+margin-right: -3px;
+}
+
+.icon-clock-o:before, .icon-time:before {
+content: "\f017";
+}
+
+.badge.badge-danger {
+background-color: #d9534f;
+}
+
+.badge.badge-success {
+background-color: #79bd3c;
+}
+
+.dropdown-menu>li a {
+padding: 5px 10px;
+}
+
+.dropdown-menu>li>a {
+display: block;
+clear: both;
+font-weight: normal;
+line-height: 1.42857;
+color: #333;
+white-space: nowrap;
+text-align: left;
+}
+
+table.table-grid.clearfix {
+	display:table!important;
+}
+
+#erp_file_order_form, #erp_scan_product_form {
+	margin-bottom: 20px;
+}
+
+.ranking-captain-info {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-bottom:2px;
+    background-position: 0 -80px!important;
+}
+
+.ranking-sprite, .ranking-captain-info, .ranking-captain, .ranking-conqueror-info, .ranking-conqueror, .ranking-superhero-info, .ranking-superhero {
+    background: url('../img/ranking.png') no-repeat;
+}
+
+.label-wic {
+    height:85px;
+    line-height:80px;
+    margin-left:10px;
+    font-weight: bold;
+}
+
+.separator-vertical {
+    border-left: 1px solid #eee;
+    padding-left: 35px!important;
+}

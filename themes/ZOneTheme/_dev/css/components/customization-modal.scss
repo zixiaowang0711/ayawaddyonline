@@ -1,0 +1,14 @@
+.customization-modal {
+  .modal-content {
+    .modal-body {
+      padding-top: 0;
+      .product-customization-line {
+        padding-top: rem(15px);
+        + .product-customization-line {
+          margin-top: rem(15px);
+          border-top: 1px solid $border-color-lighten;
+        }
+      }
+    }
+  }
+}

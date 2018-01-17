@@ -1,0 +1,52 @@
+.block-newsletter {
+  margin-bottom: 30px;
+  @include media-breakpoint-down(md) {
+    margin-bottom: 20px;
+  }
+  .newsletter-form {
+    margin-top: 14px;
+  }
+  .form-control {
+    &:-webkit-autofill {
+      background: transparent;
+    }
+  }
+  .newsletter-message {
+    margin-top: 8px;
+    font-size: 92%;
+    .alert {
+      padding: 2px 10px;
+      font-size: inherit;
+      margin-bottom: 0;
+      border: none;
+    }
+  }
+}
+#footer .footer-main .block-newsletter h4 {
+  margin-bottom: 20px;
+}
+.footer-right .block-newsletter {
+  .input-wrapper {
+    width: 100%;
+    @include display(flex);
+  }
+  .form-control {
+    height: 50px;
+    width: 70%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: $color-gray;
+    border-radius: 5px 0 0 5px;
+  }
+  .input-btn {
+    margin-left: -1px;
+    min-width: 30%;
+    .btn {
+      width: 100%;
+      height: 50px;
+      font-size: 17px;
+      border-radius: 0 5px 5px 0;
+      text-transform: none;
+    }
+  }
+}

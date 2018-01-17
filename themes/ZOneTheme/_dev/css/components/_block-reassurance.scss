@@ -1,0 +1,13 @@
+.block-reassurance {
+  img {
+    color: $icon-color;
+    width: rem(25px);
+    margin-right: rem(10px);
+  }
+  li + li {
+    border-top: 1px dashed $border-color;
+  }
+  li .block-reassurance-item {
+    padding: $box-padding;
+  }
+}

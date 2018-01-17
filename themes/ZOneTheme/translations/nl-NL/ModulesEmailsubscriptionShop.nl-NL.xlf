@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" source-language="nl-NL" target-language="nl-NL" datatype="plaintext">
+    <body>
+      <trans-unit id="ffb7e666a70151215b4c55c6268d7d72">
+        <source>Newsletter</source>
+        <target>Nieuwsbrief</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:27</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice" source-language="nl-NL" target-language="nl-NL" datatype="plaintext">
+    <body>
+      <trans-unit id="369ff5f4e7e3376e816a18f0dda86c14">
+        <source>Newsletter Signup</source>
+        <target>Nieuwsbrief Inschrijving</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="198584454b0ce1101ff5b50323325aa8">
+        <source>Your email address</source>
+        <target>Uw e-mailadres</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="b26917587d98330d93f87808fc9d7267">
+        <source>Subscribe</source>
+        <target>Inschrijven</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+      <trans-unit id="e0aa021e21dddbd6d8cecec71e9cf564">
+        <source>OK</source>
+        <target>OKe</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/backoffice:</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

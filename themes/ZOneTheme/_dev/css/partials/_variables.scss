@@ -1,0 +1,205 @@
+//---------- THEME COLOR
+$color_text:        #5d5d5d; // den
+$color_text_bold:   #3d3d3d; // den dam
+$color_text_light:  #6f6f6f; // den nhat
+$color_green:       #5a9e74; // xanh la
+$color_gray:        #f7f7f7; // xam
+$color_border:      #c7c7c7; // border
+$color_box_bg:      #ffffff; // mau box
+$color_pink:        #fd6282; // hong
+$color_blue:        #007ad1; // xanh
+$color_white:       #ffffff; // trang
+
+/*
+//----- XML SELECTORS
+$color_text:        #123456;
+$color_text_bold:   #234567;
+$color_text_light:  #345678;
+$color_green:       #456789;
+$color_gray:        #567890;
+$color_border:      #678901;
+$color_box_bg:      #789012;
+$color_pink:        #890123;
+$color_blue:        #901234;
+*/
+
+//---------- BOOTSTRAP
+$grid-columns:      12;
+$grid-gutter-width-base: 30px;
+$grid-gutter-width-small: 20px;
+
+$grid-gutter-widths: (
+  xs: $grid-gutter-width-small,
+  sm: $grid-gutter-width-small,
+  md: $grid-gutter-width-small,
+  lg: $grid-gutter-width-small, // 20px
+  xl: $grid-gutter-width-base  // 30px
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1220px
+);
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1200px
+);
+
+$container-xs-max-width: 480px;
+
+//---------- FONTS
+$text-font:                         'Roboto', sans-serif;
+$text-color:                        $color_text;
+
+$title-font:                        'Roboto Condensed', sans-serif;
+$title-color:                       $color_text_bold;
+
+$border-color:                      $color_border;
+$border-color-lighten:              lighten($border-color, 15%);
+$dark-border-color:                 #3b3b3b;
+$light-border-color:                #ffffff;
+
+$box-shadow-color:                  rgba(0, 0, 0, 0.2);
+
+$link-color:                        $color_green;
+$link-hover-color:                  $color_pink;
+
+$box-background:                    $color_box_bg;
+$box-background-darken:             darken($box-background, 8%);
+$light-background:                  $color_white;
+$box-padding:                       0.9375rem;
+
+$light-text-color:                  $color_white;
+
+$wrapper-background:                #f7f7f7;
+
+$center-enable-background:          false;
+$center-background:                 #ffffff;
+$center-border:                     none;
+$center-padding:                    10px;
+
+$column-block-background:           $color_box_bg;
+
+$icon-color:                        $color_pink;
+
+$header-background:                 #ffffff;
+$breadcrumb-background:             #ffffff;
+
+$footer-background:                 #ffffff;
+$footer-text-color:                 inherit;
+$footer-title-color:                $color_text_bold;
+
+
+@function parseInt($n) {
+  @return $n / ($n * 0 + 1);
+}
+
+//---------- Bootstrap
+$font-size-root:    16px;
+$font-size-base:    0.8125rem;
+$line-height-base:  1.25;
+
+$input-bg:            $color_white;
+$input-color:         $text-color;
+$input-border-color:  $border-color;
+$input-color-placeholder: $color_text_light;
+
+$btn-border-radius:       3px;
+$btn-line-height:         1.25rem;
+$input-btn-border-width:  1px;
+$input-padding-x:         0.75rem;
+$input-padding-y:         0.375rem;
+$input-line-height:       $line-height-base;
+$input-height:            (($font-size-base * $line-height-base) + ($input-padding-y * 2));
+
+$table-border-color:  $border-color;
+
+$tooltip-color:         #fff;
+$tooltip-bg:            #000;
+$tooltip-padding-y:     0;
+$tooltip-padding-x:     5px;
+$tooltip-margin:        2px;
+$tooltip-arrow-color:   $tooltip-bg;
+
+$pre-color:               $text-color;
+$blockquote-small-color:  $color_text_light;
+$thumbnail-border-color:  $border-color;
+$input-btn-border-width:  1px;
+
+// not bootstrap
+$btn-border-width:        0;
+$input-max-width:         220px;
+$base-height:             (($line-height-base + (parseInt($input-padding-y) * 2)) * $font-size-root) + 2;
+$base-padding:            parseInt($input-padding-y) * $font-size-root + 1;
+$base-padding-border1px:  parseInt($input-padding-y) * $font-size-root;
+$base-padding-border2px:  parseInt($input-padding-y) * $font-size-root - 1;
+
+$custom-select-bg:        $input-bg;
+
+$btn-primary-color:         $color_white;
+$btn-primary-bg:            $color_green;
+$btn-primary-bg-hover:      darken($color_green, 10%);
+
+$btn-secondary-color:       $color_white;
+$btn-secondary-bg:          $color_text_bold;
+$btn-secondary-bg-hover:    darken($color_text_bold, 10%);
+
+$btn-cart-color:            $color_white;
+$btn-cart-bg:               $color_green;
+$btn-cart-bg-hover:         darken($color_green, 10%);
+
+/*
+//----- XML SELECTORS
+$border-color-lighten:              'lighten-border-color-15';
+$box-background-darken:             'darken-box-background-8';
+$btn-primary-bg-hover:              'darken-color-green-10';
+$btn-cart-bg-hover:                 'darken-color-green-10';
+$btn-secondary-bg-hover:            'darken-color-text-bold-10';
+
+$title-color:                       #999999;
+$icon-color:                        #888888;
+$btn-primary-color:                 #777777;
+$btn-primary-bg:                    #666666;
+$btn-primary-bg-hover:              'darken-color-green-10';
+$btn-cart-color:                    #777777;
+$btn-cart-bg:                       #666666;
+$btn-cart-bg-hover:                 'darken-color-green-10';
+*/
+
+
+//---------- CLASSIC
+$font-size-h1: 2rem;
+$font-size-h2: 1.75rem;
+$font-size-h3: 1.5rem;
+$font-size-h4: 1.25rem;
+$font-size-h5: 1rem;
+$font-size-h6: 0.75rem;
+
+$headings-font-weight: 700;
+$border-radius: 0;
+$extra-small-space: 10px;
+$small-space: 20px;
+$medium-space: 30px;
+$large-space: 40px;
+$extra-large-space: 50px;
+$btn-tertiary-color: #6C868E;
+$btn-tertiary-hover: #BBCDD2;
+$base-font-size: rem(16px);
+$font-size-lg: rem(15px);
+$font-size-sm: rem(14px);
+$font-size-xs: rem(13px);
+
+$display1-size: rem(50px);
+$display1-weight: 600;
+$display2-size: rem(35px);
+$display2-weight: 400;
+$display3-size: rem(25px);
+$display3-weight: 400;
+$display4-size: rem(20px);
+$display4-weight: 400;

@@ -1,0 +1,8 @@
+.hisc-s-btn{
+	margin-bottom:3px;
+	height:35px;
+}
+.hisc-s-btn > span,
+.hisc-s-btn-custom > span{
+	height:34px;
+}

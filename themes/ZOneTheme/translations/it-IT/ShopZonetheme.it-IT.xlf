@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonebrandlogo/views/templates/hook/zonebrandlogo.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="dd6943d5e59c8fedde4adb05e0a124f6">
+        <source>Popular Brands</source>
+        <target>Marche popolari</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonebrandlogo/views/templates/hook/zonebrandlogo.tpl:30</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3d239913d5e5922e77e81814960b9942">
+        <source>Preview Colors</source>
+        <target>Preview Colors</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="6d1ca8184c6a1f11ecccfa17f8f9048a">
+        <source>Boxed</source>
+        <target>Boxed</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="e7c770a61dbdf81ca922ae0260e327c1">
+        <source>Wide</source>
+        <target>Wide</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:34</note>
+      </trans-unit>
+      <trans-unit id="45fd2cb3f26f2edf9165feeb4411608a">
+        <source>Pick a color, then click OK</source>
+        <target>Pick a color, then click OK</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="b5859d8721cfdc0312b2838b9c985bc1">
+        <source>RESET</source>
+        <target>RESET</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonecolorsfonts/views/templates/hook/live_colors_preview.tpl:83</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/category-container.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="0a18f0aa51f30f1107495bf639caf16c">
+        <source>Shop Now</source>
+        <target>Acquista ora</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/category-container.tpl:63</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/zonefeaturedcategories.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="96b4cf26fa238554ffbc7cefc17a5250">
+        <source>Featured Categories</source>
+        <target>Categorie in primo piano</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonefeaturedcategories/views/templates/hook/zonefeaturedcategories.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonehomeblocks/views/templates/hook/zonehometabs.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="925dc7757bc7a9926f13546bb8260267">
+        <source>Show More</source>
+        <target>Mostra di più</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonehomeblocks/views/templates/hook/zonehometabs.tpl:57</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonepopupnewsletter/views/templates/hook/zonepopupnewsletter.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="e202ca64fbdafd978aadd3d2e9db7aad">
+        <source>Do not show this popup again.</source>
+        <target>Non mostrare questa finestra di nuovo.</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonepopupnewsletter/views/templates/hook/zonepopupnewsletter.tpl:51</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerafter.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="e58c27818bf68b1f92513ad4f99972c4">
+        <source>Back to Top</source>
+        <target>Torna in cima</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerafter.tpl:33</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="a82be0f551b8708bc08eb33cd9ded0cf">
+        <source>Information</source>
+        <target>Informazioni</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/zonethememanager/views/templates/hook/zonethememanager_footerright.tpl:31</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_customersignin/customer-dropdown-menu.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="7442e29d7d53e549b78d93c46b8cdcfc">
+        <source>Orders</source>
+        <target>Ordini</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_customersignin/customer-dropdown-menu.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="4762fdc5fdf2ab3118f73fe252a6668b">
+        <source>Returns</source>
+        <target>Restituzione</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_customersignin/customer-dropdown-menu.tpl:66</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/st-menu-left.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="b61541208db7fa7dba42c85224405911">
+        <source>Menu</source>
+        <target>Menu</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/st-menu-left.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/miniatures/product.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="831a28f1e8df07c553fcd59546465d13">
+        <source>Buy</source>
+        <target>Compra</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/miniatures/product.tpl:164</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/sort-orders.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="4351cfebe4b61d8aa5efa1d020710005">
+        <source>View</source>
+        <target>Vista</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/sort-orders.tpl:56</note>
+      </trans-unit>
+      <trans-unit id="5174d1309f275ba6f275db3af9eb3e18">
+        <source>Grid</source>
+        <target>Griglia</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/sort-orders.tpl:59</note>
+      </trans-unit>
+      <trans-unit id="4ee29ca12c7d126654bd0e5275de6135">
+        <source>List</source>
+        <target>Lista</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/sort-orders.tpl:62</note>
+      </trans-unit>
+      <trans-unit id="51c45b795d5d18a3e4e0c37e8b20a141">
+        <source>Table</source>
+        <target>Tavolo</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/sort-orders.tpl:65</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/quickview.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="6e9783376d951cfd780e9fdb67a0f02c">
+        <source>View details</source>
+        <target>Mostra dettagli</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/quickview.tpl:151</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/product-images-modal.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="7a725a0bb8de25de4a4099f8e2810530">
+        <source>Close (Esc)</source>
+        <target>Vicino</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/product-images-modal.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="7bbb83e3b2b293d1869e2389b6d14052">
+        <source>Previous (Left arrow key)</source>
+        <target>Precedente</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/product-images-modal.tpl:31</note>
+      </trans-unit>
+      <trans-unit id="acf5ae62d30e97e0812f4dfb545769f1">
+        <source>Next (Right arrow key)</source>
+        <target>Successivo</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/_partials/product-images-modal.tpl:32</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/listing/category.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="f73cc399b5ce12735a57f03414f09ef9">
+        <source>Subcategories</source>
+        <target>Sottocategorie</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/catalog/listing/category.tpl:48</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

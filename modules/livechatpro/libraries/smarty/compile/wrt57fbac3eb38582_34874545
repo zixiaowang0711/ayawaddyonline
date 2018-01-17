@@ -1,0 +1,176 @@
+<?php
+/* Smarty version 3.1.28, created on 2016-10-10 16:57:02
+  from "C:\webserver\htdocs\www\prestashop16\modules\livechatpro\views\templates\front\ajax.start_chat.tpl" */
+
+if ($_smarty_tpl->smarty->ext->_validateCompiled->decodeProperties($_smarty_tpl, array (
+  'has_nocache_code' => false,
+  'version' => '3.1.28',
+  'unifunc' => 'content_57fbac3eb346c7_93640658',
+  'file_dependency' => 
+  array (
+    '373421bedb0b4df7ce971299c7bb363086a8be1b' => 
+    array (
+      0 => 'C:\\webserver\\htdocs\\www\\prestashop16\\modules\\livechatpro\\views\\templates\\front\\ajax.start_chat.tpl',
+      1 => 1475148125,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_57fbac3eb346c7_93640658 ($_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '1118457fbac3ea483a5_19100033';
+?>
+
+<?php $_smarty_tpl->tpl_vars['template'] = new Smarty_Variable(((string)dirname($_smarty_tpl->source->filepath))."\\".((string)basename($_smarty_tpl->source->filepath)), null);
+$_smarty_tpl->ext->_updateScope->updateScope($_smarty_tpl, 'template', 0);?>
+
+<?php echo '<script'; ?>
+ type="text/javascript">
+var lcp_visitor_name = "<?php echo (($tmp = @preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['name']))===null||$tmp==='' ? '' : $tmp);?>
+";
+<?php echo '</script'; ?>
+>
+
+<!-- <input type="hidden" name="visitor_name" id="visitor_name" value="<?php echo (($tmp = @preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['name']))===null||$tmp==='' ? '' : $tmp);?>
+"> -->
+
+<div id="chat_status_data" data-status="<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['status']->value);?>
+"></div>
+<div id="lcp_chat_wrapper" style="overflow-y: scroll; height: <?php if (empty($_smarty_tpl->tpl_vars['theme']->value['height'])) {?>350<?php } else {
+echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['theme']->value['height']);
+}?>px !important; padding-right: 10px; padding-top: 5px;">
+	<div id="chat_accepted_by" style="<?php if ($_smarty_tpl->tpl_vars['visitor_chat_status']->value != 'Y') {?>display:none;<?php }?>">
+		<?php echo smartyFunctionTranslate(array('s'=>'Chat accepted by'),$_smarty_tpl);?>
+ <b><?php if ($_smarty_tpl->tpl_vars['primary_settings']->value['show_names'] == 'N') {
+echo smartyFunctionTranslate(array('s'=>'Staff'),$_smarty_tpl);
+} else {
+echo (($tmp = @preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['internal']))===null||$tmp==='' ? '' : $tmp);
+}?></b> (<?php echo (($tmp = @preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['department_name']->value))===null||$tmp==='' ? '' : $tmp);?>
+)<br>
+		<?php if (!empty($_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['welcome_message'])) {
+echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['welcome_message']);?>
+<hr><?php }?>
+	</div>
+	<div id="chat_denied" style="display:none;">
+		<?php echo smartyFunctionTranslate(array('s'=>'The chat has been denied! Please reload the page to try again!'),$_smarty_tpl);?>
+ <a href="javascript:location.reload();"><?php echo smartyFunctionTranslate(array('s'=>'Reload page'),$_smarty_tpl);?>
+</a>
+	</div>
+	<div id="be_patient" style="<?php if ($_smarty_tpl->tpl_vars['visitor_chat_status']->value != 'Y' && $_smarty_tpl->tpl_vars['visitor_chat_status']->value != 'N') {
+} else { ?>display:none;<?php }?>">
+		<?php echo smartyFunctionTranslate(array('s'=>'A representative will be connected, please be patient.'),$_smarty_tpl);?>
+
+	</div>
+	<div id="lcp_content">
+		<?php if (!empty($_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['messages'])) {?>
+		<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_online_archive_details']->value['messages']);?>
+
+		<?php }?>
+	</div>
+</div>
+
+<div id="menu-emoticons" style="position:absolute; z-index: 9999; display:none; float:left; clear:both;" class="lcp panel">
+	
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" class="lcp emoticon-table">
+	<tr>
+	<?php
+$__section_id_0_saved = isset($_smarty_tpl->tpl_vars['__smarty_section_id']) ? $_smarty_tpl->tpl_vars['__section_id'] : false;
+$__section_id_0_loop = (is_array(@$_loop=$_smarty_tpl->tpl_vars['emoticons']->value) ? count($_loop) : max(0, (int) $_loop));
+$__section_id_0_total = $__section_id_0_loop;
+$_smarty_tpl->tpl_vars['__smarty_section_id'] = new Smarty_Variable(array());
+if ($__section_id_0_total != 0) {
+for ($_smarty_tpl->tpl_vars['__smarty_section_id']->value['iteration'] = 1, $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] = 0; $_smarty_tpl->tpl_vars['__smarty_section_id']->value['iteration'] <= $__section_id_0_total; $_smarty_tpl->tpl_vars['__smarty_section_id']->value['iteration']++, $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']++){
+?>
+	   <td align="center" style="text-align: center; width: 40px;">
+	   	<input type="hidden" name="emoticon_code" id="emoticon_code_<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['emoticons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] : null)]['id_emoticon']);?>
+" value='<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['emoticons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] : null)]['code']);?>
+'>
+	   	<img title='<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['emoticons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] : null)]['code']);?>
+' border="0" src="<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['module_path']->value);?>
+views/img/emoticons/<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['emoticons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] : null)]['filename']);?>
+" id="emoticon_img_<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['emoticons']->value[(isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['index']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['index'] : null)]['id_emoticon']);?>
+" class="lcp emoticon-img"></td>
+	   <?php if ((isset($_smarty_tpl->tpl_vars['__smarty_section_id']->value['iteration']) ? $_smarty_tpl->tpl_vars['__smarty_section_id']->value['iteration'] : null)%5 == 0) {?>
+	       </tr><tr>
+	   <?php }?>
+	<?php
+}
+}
+if ($__section_id_0_saved) {
+$_smarty_tpl->tpl_vars['__smarty_section_id'] = $__section_id_0_saved;
+}
+?>
+	</tr>
+	</table> 
+
+</div>
+
+<?php echo '<script'; ?>
+ type="text/javascript">
+	try {
+		/*console.log(parseInt($('#chat_msg_textarea_div')[0].style.height));*/
+		$("#rating_td").html( lcp.generateRatingStars( '5' ) );
+		//$('#lcp_chat_wrapper').css('height',  (parseInt(lcp_chat_height) - parseInt($('#chat_msg_textarea_div')[0].style.height))+'px' );
+		$('#lcp_chat_wrapper').scrollTop($('#lcp_chat_wrapper')[0].scrollHeight);
+	} catch(e){}
+<?php echo '</script'; ?>
+>
+
+<?php if ($_smarty_tpl->tpl_vars['visitor_chat_status']->value == 'N') {?>
+	<?php echo '<script'; ?>
+ type="text/javascript">
+		try {
+			$("#before_chat_div").show();
+			$("#start_chat_div").hide();
+			$("#chat_msg_textarea_div").hide();
+		} catch(e){}
+	<?php echo '</script'; ?>
+>
+<?php }?>
+
+<?php if ($_smarty_tpl->tpl_vars['action']->value == 'chatClosedFromClient' || $_smarty_tpl->tpl_vars['action']->value == 'chatClosedFromStaff') {?>
+	<?php echo '<script'; ?>
+ type="text/javascript">
+		try {
+			lcp_id_archive = "<?php echo preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_archive_details']->value['id_archive']);?>
+";
+			$('#signature_td').html('<?php echo substr(preg_replace("%(?<!\\\\)'%", "\'",$_smarty_tpl->tpl_vars['visitor_archive_details']->value['signature']),"1","-1");?>
+');
+			$("#before_chat_div").hide();
+			$("#after_chat_div").show();
+		} catch(e){}
+	<?php echo '</script'; ?>
+>
+<?php }?>
+
+<?php if ($_smarty_tpl->tpl_vars['action']->value == 'chatMessageFromStaff') {?>
+	<?php echo '<script'; ?>
+ type="text/javascript">
+		try {
+			if (typeof(blink_interval_id) == "undefined") {
+				blink_interval_id = setInterval(function(){ $(".blink-container").toggleClass("blink"); }, 600);
+			}
+			
+			if (typeof(new_message) == "undefined") {
+				lcp.playSound("newmessage");
+				new_message = true;
+			}
+		} catch(e){}
+	<?php echo '</script'; ?>
+>
+<?php } else { ?>
+	<?php echo '<script'; ?>
+ type="text/javascript">
+		try {
+			clearInterval(blink_interval_id);
+			$(".blink-container").removeClass("blink");
+			delete blink_interval_id;
+			delete new_message;
+		} catch(e){}
+	<?php echo '</script'; ?>
+>
+<?php }
+}
+}

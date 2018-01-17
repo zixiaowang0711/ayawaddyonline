@@ -1,0 +1,5 @@
+Hi {supplier_name},
+
+You received a new order n°{supplier_order} on {shop_name}.
+
+{shop_url} powered by PrestaShop™

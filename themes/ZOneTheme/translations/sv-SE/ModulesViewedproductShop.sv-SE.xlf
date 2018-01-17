@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_viewedproduct/views/template/hook/ps_viewedproduct.tpl" source-language="sv-SE" target-language="sv-SE" datatype="plaintext">
+    <body>
+      <trans-unit id="43560641f91e63dc83682bc598892fa1">
+        <source>Viewed products</source>
+        <target>Visade produkter</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_viewedproduct/views/template/hook/ps_viewedproduct.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

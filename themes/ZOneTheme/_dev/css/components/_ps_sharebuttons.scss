@@ -1,0 +1,91 @@
+.social-sharing {
+  max-width: 500px;
+  label {
+    margin-right: 20px;
+    padding-top: $base-padding;
+    float: left;
+    display: none;
+  }
+  li {
+    border-radius: 3px;
+    background-repeat: no-repeat;
+    background-size: 86%;
+    background-position: center;
+    a {
+      display: block;
+      padding: $base-padding 15px;
+      text-transform: uppercase;
+      text-align: center;
+      &:hover {
+        color: $light-text-color;
+        i {
+          color: $light-text-color;
+        }
+      }
+      i {
+        font-size: 110%;
+        padding-right: 5px;
+      }
+    }
+  }
+  .facebook {
+    i {
+      color: #3b5998;
+    }
+    &:hover {
+      background-color: #3b5998;
+    }
+  }
+  .twitter {
+    i {
+      color: #55acee;
+    }
+    &:hover {
+      background-color: #55acee;
+    }
+  }
+  .googleplus {
+    i {
+      color: #dd4b39;
+    }
+    &:hover {
+      background-color: #dd4b39;
+    }
+  }
+  .pinterest {
+    i {
+      color: #cb2027;
+    }
+    &:hover {
+      background-color: #cb2027;
+    }
+  }
+  /*.facebook {
+    background-image: url(../img/facebook-gray.svg);
+    &:hover {
+      background-image: url(../img/facebook.svg);
+      background-color: #3b5998;
+    }
+  }
+  .twitter {
+    background-image: url(../img/twitter-gray.svg);
+    &:hover {
+      background-image: url(../img/twitter.svg);
+      background-color: #55acee;
+    }
+  }
+  .googleplus {
+    background-image: url(../img/gplus-gray.svg);
+    &:hover {
+      background-image: url(../img/gplus.svg);
+      background-color: #dd4b39;
+    }
+  }
+  .pinterest {
+    background-image: url(../img/pinterest-gray.svg);
+    &:hover {
+      background-image: url(../img/pinterest.svg);
+      background-color: #cb2027;
+    }
+  }*/
+}

@@ -1,0 +1,15 @@
+1.0.3
+Fix Pixel ID must be between 15 and 16 characters
+
+
+1.0.2
+Increase the character limit up to 16
+Update the style of the FAQ
+Displaying the version of PrestaShop
+
+1.0.1
+Add new translations
+Fix a bug if PHP is less than 5.5
+
+1.0.0
+First version for 1.7

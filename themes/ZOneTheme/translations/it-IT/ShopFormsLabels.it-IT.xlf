@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/contactform/views/templates/widget/contactform.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="c7892ebbb139886662c6f2fc8c450710">
+        <source>Subject</source>
+        <target>Argomento</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/contactform/views/templates/widget/contactform.tpl:42</note>
+      </trans-unit>
+      <trans-unit id="5d4710f9a8250b13164a82c94d5b00d1">
+        <source>Order reference</source>
+        <target>Riferimento ordine</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/contactform/views/templates/widget/contactform.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="e9cb217697088a98b1937d111d936281">
+        <source>Attachment</source>
+        <target>Documento allegato</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/contactform/views/templates/widget/contactform.tpl:84</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/password-email.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="b357b524e740bc85b9790a0712d84a30">
+        <source>Email address</source>
+        <target>Indirizzo email</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/password-email.tpl:54</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/_partials/order-messages.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="4c2a8fe7eaf24721cc7a9f0175115bd4">
+        <source>Message</source>
+        <target>Messaggio</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/_partials/order-messages.tpl:33</note>
+      </trans-unit>
+      <trans-unit id="1625e29c02062efe5dbc42c3efeeebc4">
+        <source>-- please choose --</source>
+        <target>-- effettua una scelta --</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/_partials/order-messages.tpl:67</note>
+      </trans-unit>
+      <trans-unit id="5da618e8e4b89c66fe86e32cdafde142">
+        <source>From</source>
+        <target>Da</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/_partials/order-messages.tpl:32</note>
+      </trans-unit>
+      <trans-unit id="deb10517653c255364175796ace3553f">
+        <source>Product</source>
+        <target>Prodotto</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/_partials/order-messages.tpl:64</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="198584454b0ce1101ff5b50323325aa8">
+        <source>Your email address</source>
+        <target>Il tuo indirizzo email</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl:37</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/form-fields.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="93332134fd11cffbe680dd8afaa521fc">
+        <source>-- day --</source>
+        <target>-- giorno --</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/form-fields.tpl:117</note>
+      </trans-unit>
+      <trans-unit id="9180b4d5ab8103f244c2d4fd661934e2">
+        <source>-- month --</source>
+        <target>-- mese --</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/form-fields.tpl:118</note>
+      </trans-unit>
+      <trans-unit id="ae1cc541ba45ce670ea7e0e3a30e3205">
+        <source>-- year --</source>
+        <target>-- anno --</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/form-fields.tpl:119</note>
+      </trans-unit>
+      <trans-unit id="ebb061953c0454b2c8ee7b0ac615ebcd">
+        <source>Optional</source>
+        <target>Opzionale</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/_partials/form-fields.tpl:176</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/guest-login.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="63c193f613dd3d9d6c16da7678efda2a">
+        <source>Order Reference:</source>
+        <target>Riferimento ordine:</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/guest-login.tpl:41</note>
+      </trans-unit>
+      <trans-unit id="6a1e265f92087bb6dd18194833fe946b">
+        <source>Email:</source>
+        <target>Email:</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/guest-login.tpl:59</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/guest-tracking.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3b6bf3c0c07b89dc86f415117a1f0b80">
+        <source>Set your password:</source>
+        <target>Imposta la tua password:</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/guest-tracking.tpl:53</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/password-new.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="3544848f820b9d94a3f3871a382cf138">
+        <source>New password</source>
+        <target>Nuova password</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/password-new.tpl:45</note>
+      </trans-unit>
+      <trans-unit id="f4d1ea475eaa85102e2b4e6d95da84bd">
+        <source>Confirmation</source>
+        <target>Conferma</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/templates/customer/password-new.tpl:52</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

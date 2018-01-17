@@ -1,0 +1,120 @@
+.aone-colors-live-preview {
+  position: fixed;
+  top: 5%;
+  right: -240px;
+  width: 240px;
+  z-index: 1000;
+  transition: all 0.3s;
+  color: #3d3d3d;    
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif; 
+  .live-preview-toggle {
+    float: left;
+    width: 40px;
+    height: 40px;
+    padding-top: 6px;
+    margin-left: -40px;
+    margin-top: 100px;
+    background: #fff;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+    box-shadow: -3px 0px 10px -2px $box-shadow-color;
+    &:hover i {
+        transform: scale(1.1);
+    }
+  }
+  .live-preview-container {
+    background: #fff;
+    border-radius: 5px 0 0 5px;
+  }
+  .live-preview-title {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 1px solid #bdbdbd;
+    padding: 15px 0;
+    color: #3d3d3d;
+  }
+  .live-preview-boxed-wide {
+    padding: 10px 15px;
+    overflow: hidden;
+    a {
+      width: 44%;
+      float: left;
+      color: #3d3d3d;
+      text-align: center;
+      margin: 0 3%;
+      line-height: 28px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+      transition: all 0.3s;
+      &.active, &:hover {
+          background: #ddd;
+      }
+    }
+    .style, .boxed_bg_css, .preview {
+      display: none;
+    }
+  }
+  .live-preview-wrapper {
+    padding: 5px 20px;
+    .hint {
+      text-align: center;
+      color: #31708f;
+      background-color: #d9edf7;
+      border-color: #bce8f1;
+    }
+    .acolor {
+      padding: 6px 0;
+      overflow: hidden;
+      line-height: 30px;
+      label {
+        float: left;
+        margin: 0;
+        color: #3d3d3d;
+      }
+      .color-pick {
+        float: right;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #bdbdbd;
+      }
+      .style, .selector, .property, .preview {
+        display: none;
+      }
+    }
+  }
+  .live-preview-reset {
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #bdbdbd;
+    a {
+      color: inherit;
+      font-weight: 700;
+      font-size: 15px;
+      border-bottom: 2px solid;
+    }
+  }
+  .live-preview-special-style {
+    padding: 10px 20px;
+    label {
+      font-weight: 700;
+    }
+    .custom-checkbox-wrapper {
+      margin-bottom: 10px;
+    }
+    .custom-radio {
+      margin-left: auto;
+      margin-right: 0;
+    }
+  }
+}
+.aone-colors-live-preview.open {
+    right: 0;
+    .live-preview-container {
+        box-shadow: -3px 0px 50px -2px $box-shadow-color;
+    }
+}

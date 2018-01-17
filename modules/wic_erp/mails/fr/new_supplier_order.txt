@@ -1,0 +1,5 @@
+Bonjour {supplier_name},
+
+Vous avez reçu une nouvelle commande n°{supplier_order} sur {shop_name}.
+
+{shop_url} réalisé par PrestaShop™

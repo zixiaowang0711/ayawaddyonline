@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_brandlist/views/templates/_partials/brand_form.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="e18a22d145b38e4fff582663b5b4ec1e">
+        <source>All brands</source>
+        <target>Wszystkie marki</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_brandlist/views/templates/_partials/brand_form.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="84be54bb4bd1b755a27d86388700d097">
+        <source>Brands</source>
+        <target>Marki</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:29</note>
+      </trans-unit>
+      <trans-unit id="8e41eae149ff3fa38cc9c4fde945f2c3">
+        <source>No brand</source>
+        <target>Brak marki</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_brandlist/views/templates/hook/ps_brandlist.tpl:36</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

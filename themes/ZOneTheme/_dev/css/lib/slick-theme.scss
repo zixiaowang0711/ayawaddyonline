@@ -1,0 +1,152 @@
+.slick-list {
+  padding-top: 15px;
+  margin-top: -15px;
+}
+.slick-track {
+  @include display(flex);
+}
+.slick-slide {
+  height: auto;
+}
+
+.slick-loading .slick-list {
+  background: #ffffff url('../img/ajax-loader.gif') center center no-repeat; 
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  position: absolute;
+  top: -35px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  cursor: pointer;
+  background-color: $icon-color;
+  background-image: url('../img/bg-line.png');
+  color: $light-text-color;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: all 0.3s;
+  opacity: 0.5;
+  z-index: 10;
+  &:hover {
+    outline: none;
+    opacity: 1 !important;
+  }
+  &:focus {
+    outline: none;
+  }
+  &.slick-disabled {
+    opacity: .25;
+  }
+  .material-icons {
+    transition: all 0.3s;
+    display: initial;
+    
+  }
+  &:before {
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    line-height: 30px;
+    transition: all 0.3s;
+  }
+
+  .background-for-title &, .background-for-tab-title & {
+    top: -40px;
+  }
+  @include media-breakpoint-down(md) {
+    width: 25px;
+    height: 25px;
+    &:before {
+      line-height: 25px;
+    }
+    &, .background-for-title &, .background-for-tab-title & {
+      top: 50%;
+      margin-top: -35px;
+    }
+  }
+}
+
+.slick-slider:hover .slick-prev,
+.slick-slider:hover .slick-next {
+}
+
+.slick-prev {
+  left: auto;
+  right: 41px;
+  border-radius: 50% 0 0 50%;
+  &:before {
+    content: "\f100";
+  }
+  &:hover:before {
+    margin-right: 3px; 
+  }
+  @include media-breakpoint-down(md) {
+    right: auto;
+    left: 0;
+  }
+}
+
+[dir='rtl'] .slick-prev {
+  right: -8px;
+  left: auto; }
+
+.slick-next {
+  left: auto;
+  right: 10px;
+  border-radius: 0 50% 50% 0;
+  &:before {
+    content: "\f101";
+  }
+  &:hover:before {
+    margin-left: 3px; 
+  }
+  @include media-breakpoint-down(md) {
+    right: 0;
+    left: auto;
+  }
+}
+
+[dir='rtl'] .slick-next {
+  right: auto;
+  left: -8px; }
+
+/* Dots */
+.slick-dots {
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 0;
+  li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+    cursor: pointer;
+    button {
+      font-size: 0;
+      display: block;
+      width: 12px;
+      height: 12px;
+      padding: 0;
+      cursor: pointer;
+      border: 0;
+      outline: none;
+      background: $color_text_bold;
+      border-radius: 100%;
+      opacity: .25;
+      &:hover, &:focus {
+        outline: none;
+        opacity: 1;
+      }
+    }
+    &.slick-active button {
+      opacity: 1; 
+    }
+  }
+}

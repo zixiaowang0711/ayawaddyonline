@@ -1,0 +1,32 @@
+.pos-button{
+    margin: 0 5px;
+}
+@media all and (max-width: 1420px) and (min-width: 992px) {
+    .pos-button{
+        margin: 8px 5px;
+    }
+}
+@media all and (max-width: 1234px) and (min-width: 992px) {
+    .pos-button_pay{
+        margin: 8px 0 0 0;
+    }
+    .order .payment_method, .order .pos-button_pay{
+        float: right;
+    }
+}
+@media all and (max-width: 1348px) and (min-width: 992px) {
+    .print_receipt{
+        margin: 8px 0 0 0;
+    }
+}
+.icon-bar-chart-o:before,.icon-bar-chart:before, .icon-AdminPos:before, #content .process-icon-stats:before { content: "\f07a"};
+.bootstrap .nav-tabs .print-receipt-tab {
+    margin-bottom: -7px;
+}
+.bootstrap .nav-tabs .print-receipt-tab a{
+    padding-bottom: 16px;
+}
+
+.bootstrap .btn-group-action .btn-group .print-receipt-btn {
+    margin-left: -4px;
+}

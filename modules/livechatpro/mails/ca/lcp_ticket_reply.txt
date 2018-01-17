@@ -1,0 +1,9 @@
+Staff: {staff}
+Customer: {customer}
+Department: {department}
+Subject: {subject}
+Priority: {priority}
+Status: {status}
+Message: {message}
+
+If you want to reply to this message, please access this link: {ticket_details_link}

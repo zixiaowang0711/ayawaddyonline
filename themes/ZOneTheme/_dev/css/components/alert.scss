@@ -1,0 +1,35 @@
+.ps-alert-error,
+.ps-alert-success {
+  margin-bottom: 1rem;
+  .item {
+    align-items: center;
+    border: 2px $brand-danger solid;
+    background-color: $brand-danger;
+    @include display(flex);
+    i {
+      padding: $box-padding;
+      background-color: $brand-danger;
+      @include display(flex);
+      svg {
+        width: 24px;
+        height: 24px;
+      }
+    }
+    p {
+      background-color: $light-background;
+      margin: 0;
+      padding: $box-padding;
+      width: 100%;
+    }
+  }
+}
+
+.ps-alert-success {
+  .item {
+    border-color: $brand-success;
+    background-color: $brand-success;
+    i {
+      background-color: $brand-success;
+    }
+  }
+}

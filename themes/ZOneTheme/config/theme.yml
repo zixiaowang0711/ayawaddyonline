@@ -1,0 +1,192 @@
+name: ZOneTheme
+display_name: ZOne Theme
+version: 2.1.4
+theme_key: 1aefcb82be9edc1dce2aa18b96ae4fb7
+author:
+  name: "Mr ZOne"
+  url: "https://prestashop.aonetemplate.com/zone/"
+
+meta:
+  compatibility:
+    from: 1.7.0.0
+    to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns
+    layout-left-column:
+      name: Two Columns - Left Column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns - Right Column
+      description: Two columns with a small right column
+
+dependencies:
+  modules:
+    - zonebrandlogo
+    - zonecolorsfonts
+    - zonecolumnblocks
+    - zonefeaturedcategories
+    - zonehomeblocks
+    - zonemegamenu
+    - zonepopupnewsletter
+    - zoneproductadditional
+    - zoneslideshow
+    - zonethememanager
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+    BLOCK_CATEG_ROOT_CATEGORY: 0
+    PRODUCTS_VIEWED_NBR: 10
+    CROSSSELLING_NBR: 10
+    HOME_FEATURED_NBR: 10
+    BLOCKSOCIAL_FACEBOOK: "#"
+    BLOCKSOCIAL_TWITTER: "#"
+    BLOCKSOCIAL_RSS: "#"
+    BLOCKSOCIAL_YOUTUBE: "#"
+    BLOCKSOCIAL_VIMEO: "#"
+    BLOCKSOCIAL_INSTAGRAM: "#"
+
+  modules:
+    to_enable:
+      - zonebrandlogo
+      - zonecolorsfonts
+      - zonecolumnblocks
+      - zonefeaturedcategories
+      - zonehomeblocks
+      - zonemegamenu
+      - zonepopupnewsletter
+      - zoneproductadditional
+      - zoneslideshow
+      - zonethememanager
+    to_disable:
+      - ps_customeraccountlinks
+      - ps_contactinfo
+      - ps_linklist
+      - ps_mainmenu
+      - ps_imageslider
+      - ps_banner
+      - ps_customtext
+  hooks:
+    modules_to_hook:
+      displayBanner:
+        - zonethememanager
+      displayNav1:
+        - zonethememanager
+        - ps_languageselector
+        - ps_currencyselector
+      displayTop:
+        - ps_searchbar
+        - ps_customersignin
+        - ps_shoppingcart
+      displayNavFullWidth:
+        - zonemegamenu
+      displayMobileMenu:
+        - zonemegamenu
+      displaySidebarNavigation:
+        - zonethememanager
+      displayTopColumn:
+        - zoneslideshow
+        - zonehomeblocks
+      displayHome:
+        - zonehomeblocks
+      displayBottomColumn:
+        - zonehomeblocks
+        - zonefeaturedcategories
+        - zonebrandlogo
+      displayFooterLeft:
+        - zonethememanager
+        - ps_socialfollow
+      displayFooterRight:
+        - ps_emailsubscription
+        - zonethememanager
+      displayFooterAfter:
+        - zonethememanager
+      displayOutsideMainPage:
+        - zonepopupnewsletter
+        - zonecolorsfonts
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+        - zonecolumnblocks
+      displayProductExtraContent:
+        - zoneproductadditional
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayFooterProduct:
+        - ps_crossselling
+      displayShoppingCartFooter:
+        - ps_featuredproducts
+
+  image_types:
+    cart_default:
+      width: 90
+      height: 90
+      scope: [products]
+    small_default:
+      width: 90
+      height: 90
+      scope: [products, manufacturers, suppliers]
+    medium_default:
+      width: 455
+      height: 455
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 278
+      height: 278
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products]
+    category_default:
+      width: 870
+      height: 340
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+    category_home:
+      width: 384
+      height: 150
+      scope: [categories]
+    category_medium:
+      width: 203
+      height: 79
+      scope: [categories]
+    manufacturer_default:
+      width: 210
+      height: 80
+      scope: [manufacturers]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    index: layout-left-column
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
+    my-account: layout-left-column
+    search: layout-left-column
+    history: layout-left-column
+    manufacturer: layout-left-column
+    sitemap: layout-left-column
+    supplier: layout-left-column
+    address: layout-left-column
+    addresses: layout-left-column
+    discount: layout-left-column
+    identity: layout-left-column
+    order-slip: layout-left-column
+    order-follow: layout-left-column
+    order-detail: layout-left-column
+    order-return: layout-left-column
+    module-ps_emailalerts-account: layout-left-column

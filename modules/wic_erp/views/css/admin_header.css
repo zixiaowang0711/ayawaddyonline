@@ -1,0 +1,47 @@
+/*
+* Module My Easy ERP Web In Color 
+* 
+*  @author    Web In Color - addons@webincolor.fr
+*  @version 2.6
+*  @uses Prestashop modules
+*  @since 1.0 - mai 2014
+*  @package Wic ERP
+*  @copyright Copyright &copy; 2014, Web In Color
+*  @license   http://www.webincolor.fr
+*/
+
+@font-face {
+    font-family: 'webincolor';
+    src:url('../fonts/webincolor.eot');
+    src:url('../fonts/webincolor.eot?#iefix-8ee657') format('embedded-opentype'),
+        url('../fonts/webincolor.woff') format('woff'),
+        url('../fonts/webincolor.ttf') format('truetype'),
+        url('../fonts/webincolor.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li.breadcrumb-container [class^="icon-AdminParentErp"], li.breadcrumb-container [class*=" icon-AdminParentErp"] {
+	font-family: 'webincolor' !important;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+li.breadcrumb-container .icon-AdminParentErp:before {
+	content: "\e600";
+}
+
+form.fixed {
+    position: fixed;
+    width:100%;
+    z-index:1000;
+    top:10%;
+}

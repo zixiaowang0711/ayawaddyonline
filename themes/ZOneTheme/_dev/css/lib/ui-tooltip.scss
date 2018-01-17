@@ -1,0 +1,31 @@
+.ui-tooltip.ui-widget.ui-widget-content {
+  border: none;
+  padding: 3px 8px;
+  box-shadow: none;
+  background: #000;
+  color: #fff;
+  border-radius: .25rem;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-break: auto;
+  line-height: 1.5;
+  font-size: 0.75rem;
+  z-index: 1000;
+  .ui-tooltip-content {
+    &:before {
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      bottom: -5px;
+      left: 50%;
+      margin-left: -5px;
+      content: "";
+      border-width: 5px 5px 0;
+      border-top-color: #000;
+    }
+  }
+}

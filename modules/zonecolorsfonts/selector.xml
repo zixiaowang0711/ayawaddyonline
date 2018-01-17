@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+  <general>
+    <variable
+      name="color_text"
+      default="#5d5d5d"
+      label="Text Color"
+      desc=""
+    >
+      <style>
+        <selector>pre, .form-control, .form-control:focus, .input-group-addon, .custom-select, body, .btn-teriary, .btn.btn-teriary, .ui-autocomplete.ui-menu .ui-menu-item a, .dropdown select, .dropdown-item, .aone-popupnewsletter</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.user-info .customer-logged .account-link</selector>
+        <property>border-color</property>
+      </style>
+      <style>
+        <selector>select.form-control:focus::-ms-value, .custom-select:focus::-ms-value</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_text_bold"
+      default="#3d3d3d"
+      label="Bold Text Color"
+      desc=""
+    >
+      <style>
+        <selector>.btn-secondary, .btn-secondary.disabled, .btn-secondary:disabled, .btn.btn-secondary, .btn.btn-secondary.disabled:hover, .btn.btn-secondary.disabled:focus, .btn.btn-secondary.disabled.focus, .btn.btn-secondary:disabled:hover, .btn.btn-secondary:disabled:focus, .btn.btn-secondary:disabled.focus, .slick-dots li button</selector>
+        <property>background-color</property>
+      </style>
+      <style>
+        <selector>h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title-block, .column-title, .typo .column-title, .column-title a, .typo .column-title a, .page-heading, .page-subheading, .nav-tabs .nav-item .nav-link.active:focus, .nav-tabs .nav-item .nav-link.active:hover, .aone-tabs .dot-line-tabs .dot-line, label, .label, .nav-item .nav-link, .nav-item .nav-link.active, .product-name, .product-accordions .panel .panel-heading .panel-title a, #footer .footer-main h2, #footer .footer-main h3, .anav-top .amenu-link, #footer .footer-main h4, .banner1 span:not(.btn)</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.anav-top .mobile-toggle-plus .caret-down-icon</selector>
+        <property>border-top-color</property>
+      </style>
+      <style>
+        <selector>.anav-top .mobile-toggle-plus .caret-down-icon</selector>
+        <property>border-bottom-color</property>
+      </style>
+
+      <style darken="10">
+        <selector>.btn-secondary:hover, .btn-secondary:active, .btn-secondary.active, .show > .btn-secondary.dropdown-toggle, .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary.focus, .btn.btn-secondary:active, .btn.btn-secondary.active</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_text_light"
+      default="#6f6f6f"
+      label="Light Text Color"
+      desc=""
+    >
+      <style>
+        <selector>.blockquote-footer, .form-control::placeholder, .regular-price, .product-list .product-miniature .aeuc_unit_price_label, .main-product-details .product-customization small</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.form-control::placeholder</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_green"
+      default="#5a9e74"
+      label="Green Color"
+      desc=""
+    >
+      <style>
+        <selector>a, .btn-outline-primary, .btn-outline-primary.disabled, .btn-outline-primary:disabled, .btn-link, .page-link, .products-selection .total-products p, .products-selection .products-sort-order .product-display .display-select .selected, #header .left-nav-icon, #footer .footer-about-us .fa, #footer .footer-about-us .material-icons, .feature .material-icons, .feature .fa, .feature2 a:hover</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle, .btn.btn-primary, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled.focus, .btn.btn-primary:disabled:hover, .btn.btn-primary:disabled:focus, .btn.btn-primary:disabled.focus, .pagination .page-list .current a, .add-to-cart, .add-to-cart.disabled:hover, .add-to-cart.disabled:focus, .add-to-cart.disabled.focus, .add-to-cart:disabled:hover, .add-to-cart:disabled:focus, .add-to-cart:disabled.focus, .sidebar-currency .currency-list .current .dropdown-item, .sidebar-language .language-list .current .dropdown-item, .pace .pace-progress, .pace-bounce .pace-activity, #header .mobile-left-nav-trigger .left-nav-icon, #header .mobile-left-nav-trigger .left-nav-icon.disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon.disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon.disabled.focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon:disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled.focus, .banner3:hover</selector>
+        <property>background-color</property>
+      </style>
+      <style>
+        <selector>.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle, .card-outline-primary</selector>
+        <property>border-color</property>
+      </style>
+      <style box-shadow="0 0 10px">
+        <selector>.pace .pace-progress-inner</selector>
+        <property>box-shadow</property>
+      </style>
+      <style>
+        <selector>.pace .pace-activity</selector>
+        <property>border-top-color</property>
+      </style>
+      <style>
+        <selector>.pace .pace-activity</selector>
+        <property>border-left-color</property>
+      </style>
+
+      <style darken="10">
+        <selector>.btn-primary:hover, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle, .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active, .add-to-cart:hover, .add-to-cart:focus, .add-to-cart.focus, .add-to-cart:active, .add-to-cart.active, #header .mobile-left-nav-trigger .left-nav-icon:hover, #header .mobile-left-nav-trigger .left-nav-icon:focus, #header .mobile-left-nav-trigger .left-nav-icon.focus, #header .mobile-left-nav-trigger .left-nav-icon:active, #header .mobile-left-nav-trigger .left-nav-icon.active</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_gray"
+      default="#f7f7f7"
+      label="Gray Color"
+      desc=""
+    >
+      <style>
+        <selector>.ui-autocomplete.ui-widget-content, .dropdown-item:hover, .dropdown-item:focus, #search_filters .facet .facet-dropdown, .pagination .page-list a:hover, .product-list .grid .product-miniature .second-block .product-name, .main-product-details .reassurance-hook, .footer-right .block-newsletter .form-control, .currency-selector, .language-selector, .mobile-user-info .account-link, .sidebar-account, .sidebar-header-phone, .sidebar-menu, .cart-preview .cart-title, .cart-preview .cart-bottom, .st-menu-title, .header-main-menu, .mobile-amega-menu, .aone-featuredcategories .category-block .category-name</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_border"
+      default="#c7c7c7"
+      label="Border Color"
+      desc=""
+    >
+      <style>
+        <selector>.img-thumbnail, .table-bordered, .table-bordered th, .table-bordered td, .form-control, .input-group-addon, .custom-select, .custom-file-control, hr, .column-block, .light-box-bg, .page-order-detail .box, .page-my-account #content .links a span.link-item, .card, .bootstrap-touchspin input.form-control, .bootstrap-touchspin .btn-touchspin, .custom-checkbox input[type="checkbox"] + span, .custom-checkbox input[type="radio"] + span, .custom-radio input[type="checkbox"] + span, .custom-radio input[type="radio"] + span, .ui-autocomplete.ui-widget-content, .dropdown-menu, .products-selection .products-sort-order .product-display .display-select, .category-tree > ul > li > a:before, .product-accordions, .product-tabs .nav-tabs .nav-item .nav-link.active, .product-tabs .tab-content, .aeuc_cart_custom_text, .anav-top .category-item li a:before, .mobile-amega-menu, #header .mobile-menu-icon, .feature, .feature2</selector>
+        <property>border-color</property>
+      </style>
+      <style>
+        <selector>.custom-file-control::before</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.table th, .table td, .table tbody + tbody, .modal-footer, section.checkout-step:first-child, #search_filters .facet + .facet, .product-list .thumbnail-top .product-miniature + .product-miniature .product-container, .product-list .thumbnail-left .product-miniature + .product-miniature .product-container, .product-accordions .panel, .quickview .modal-footer, .block-reassurance li + li, .sidebar-currency, .sidebar-language, .user-info .dropdown-customer-account-links .logout, .sidebar-account, .sidebar-header-phone, .sidebar-menu, .cart-preview .cart-bottom, .anav-mobile .amenu-item + .amenu-item</selector>
+        <property>border-top-color</property>
+      </style>
+      <style>
+        <selector>.table thead th, .column-title, .typo .column-title, .modal-header, .table thead th, section.checkout-step, #blockcart-modal .divide-right, .promo-name, .cart-preview .cart-title, .st-menu-title</selector>
+        <property>border-bottom-color</property>
+      </style>
+      <style>
+        <selector>.input-group .input-group-btn > .btn</selector>
+        <property>background-color</property>
+      </style>
+      <style>
+        <selector>.category-tree .category-sub-menu, .main-product-details .product-pack .pack-product-quantity, .product-tabs .nav-tabs .nav-item .nav-link.active:before, .typo blockquote, .typo .blockquote</selector>
+        <property>border-left-color</property>
+      </style>
+      <style>
+        <selector>.product-tabs .nav-tabs .nav-item .nav-link.active:before, #blockcart-modal .divide-right</selector>
+        <property>border-right-color</property>
+      </style>
+
+      <style lighten="10">
+        <selector>.img-thumbnail, #cart-summary-product-list img, .main-product-details .product-cover, .main-product-details .product-images li.thumb-container .thumb</selector>
+        <property>border-color</property>
+      </style>
+      <style lighten="10">
+        <selector>section.checkout-step .address-item .address-footer, section.checkout-step .delivery-option + .delivery-option, section.checkout-step .order-options, #order-details .order-details-title, #order-items .order-confirmation-total, #order-items .order-line + .order-line, .page-addresses .address .address-footer, .page-order-detail #order-history .history-lines .history-line + .history-line, .page-order-detail .order-items .order-item + .order-item, .page-order-detail .shipping-lines .shipping-line + .shipping-line, .credit-slips .credit-slip + .credit-slip, .order-returns .order-return + .order-return, .main-product-details .product-pack .pack-product-item + .pack-product-item, .cart-item + .cart-item, .cart-grid-right .cart-detailed-actions, #stores .page-stores .store-item-footer.divide-top, .customization-modal .modal-content .modal-body .product-customization-line + .product-customization-line</selector>
+        <property>border-top-color</property>
+      </style>
+      <style lighten="10">
+        <selector>#order-items</selector>
+        <property>border-right-color</property>
+      </style>
+      <style lighten="10">
+        <selector>.page-order-detail .messages .message</selector>
+        <property>border-bottom-color</property>
+      </style>
+      <style lighten="10">
+        <selector>#stores .page-stores .store-item-container .divide-left</selector>
+        <property>border-left-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_box_bg"
+      default="#ffffff"
+      label="Box Background Color"
+      desc=""
+    >
+      <style>
+        <selector>.column-block, .box-bg, .light-box-bg, #order-summary-content .order-confirmation-table, .page-order-detail .box, .page-my-account #content .links a span.link-item, .shadow-box, .card, .table, .product-accordions .panel.active, .product-tabs .nav-tabs .nav-item .nav-link.active, .product-tabs .nav-tabs .nav-item .nav-link.active:before, .product-tabs .tab-content, .aone-featuredcategories .category-block .category-container, .feature, .feature2</selector>
+        <property>background-color</property>
+      </style>
+
+      <style darken="8">
+        <selector>.box-bg</selector>
+        <property>border-color</property>
+      </style>
+      <style darken="8">
+        <selector>.thead-default th, .active-filters .filter-block, #product-modal .modal-content .modal-footer</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_pink"
+      default="#fd6282"
+      label="Pink Color"
+      desc=""
+    >
+      <style>
+        <selector>a:focus, a:hover, .btn-link:focus, .btn-link:hover, .page-link:focus, .page-link:hover, .btn-teriary:hover, .btn.btn-teriary:hover, .ui-autocomplete.ui-menu .ui-menu-item .ui-state-focus, .ui-autocomplete.ui-menu .ui-menu-item .ui-state-hover, .dropdown .expand-more:hover, .dropdown a.expand-more:hover, .dropdown-item:hover, .dropdown-item:focus, section.checkout-step .step-number, .page-my-account #content .links a:hover, .active-filters .filter-block .material-icons, .product-price, .price-total, .product-name a:hover, a.product-name:hover, .product-list .product-miniature .grid-hover .grid-hover-btn a, .main-product-details .product-cover .layer .zoom-in, #product-modal .arrows, .block-reassurance img, .st-menu-close:hover, .anav-top .amenu-link > sup, .theme-default .nivo-directionNav a, .theme-default .nivo-directionNav a:hover, #header .left-nav-icon:hover, .feature a:hover, .feature2 .material-icons, .feature2 .fa</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.aone-tabs .nav-tabs .separator:after, .aone-tabs .nav-tabs .separator:before</selector>
+        <property>border-right-color</property>
+      </style>
+      <style>
+        <selector>.aone-tabs .nav-tabs .separator:after, .aone-tabs .nav-tabs .separator:before</selector>
+        <property>border-left-color</property>
+      </style>
+      <style>
+        <selector>.custom-checkbox input[type="checkbox"] + span.color .check-circle, .custom-checkbox input[type="radio"] + span.color .check-circle, .custom-radio input[type="checkbox"] + span.color .check-circle, .custom-radio input[type="radio"] + span.color .check-circle, .custom-checkbox input[type="checkbox"]:hover + span, .custom-checkbox input[type="radio"]:hover + span, .custom-radio input[type="checkbox"]:hover + span, .custom-radio input[type="radio"]:hover + span, .custom-checkbox input[type="checkbox"]:checked + span, .custom-checkbox input[type="radio"]:checked + span, .custom-radio input[type="checkbox"]:checked + span, .custom-radio input[type="radio"]:checked + span, .category-tree > ul > li > a:hover:before, .main-product-details .product-images li.thumb-container .thumb.selected, #product-modal .product-images img.selected, .anav-top .category-item li a:hover:before, .aone-slideshow .nivo-controlNav a.active, .banner2 a:before</selector>
+        <property>border-color</property>
+      </style>
+      <style>
+        <selector>.custom-checkbox input[type="checkbox"]:checked + span, .custom-checkbox input[type="radio"]:checked + span, .custom-radio input[type="checkbox"]:checked + span, .custom-radio input[type="radio"]:checked + span, .modal-header .close:hover, .category-tree > ul > li > a:hover:before, .discount-percentage, .discount-amount, .product-flags .product-flag.discount span, .product-flags .product-flag.on-sale span, .add-to-cart.added:after, .main-product-details .scroll-box-arrows .left, .main-product-details .scroll-box-arrows .right, .cart-preview .cart-header .cart-products-count, .slick-prev, .slick-next, .anav-top .amenu-link > sup, .anav-top .category-item li a:hover:before, .aone-slideshow .nivo-controlNav a, .aone-popupnewsletter button.close, #header .sticky-icon-cart .cart-products-count, #footer .scroll-to-top-button a</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="color_blue"
+      default="#007ad1"
+      label="Blue Color"
+      desc=""
+    >
+      <style>
+        <selector>section.checkout-step .address-item.selected</selector>
+        <property>border-color</property>
+      </style>
+      <style>
+        <selector>.product-flags .product-flag span</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+  </general>
+  
+  <header>
+    <variable
+      name="header_bg"
+      default="#ffffff"
+      label="Header Background"
+      desc=""
+    >
+      <style>
+        <selector>#header</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="menu_bg"
+      default="#f7f7f7"
+      overwrite="general" overwrite_variable="color_gray"
+      label="Menu Background"
+      desc=""
+    >
+      <style>
+        <selector>.header-main-menu, .mobile-amega-menu</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="menu_title"
+      default="#3d3d3d"
+      overwrite="general" overwrite_variable="color_text_bold"
+      label="Menu Title Color"
+      desc=""
+    >
+      <style>
+        <selector>.anav-top .amenu-link</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.anav-top .mobile-toggle-plus .caret-down-icon</selector>
+        <property>border-top-color</property>
+      </style>
+      <style>
+        <selector>.anav-top .mobile-toggle-plus .caret-down-icon</selector>
+        <property>border-bottom-color</property>
+      </style>
+    </variable>
+    <variable
+      name="breadcrumb_bg"
+      default="#ffffff"
+      label="Breadcrumb Background"
+      desc=""
+    >
+      <style>
+        <selector>.breadcrumb-wrapper, .mobile-breadcrumb .breadcrumb-wrapper</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+  </header>
+  
+  <footer>
+    <variable
+      name="footer_bg"
+      default="#ffffff"
+      label="Footer Background"
+      desc=""
+    >
+      <style>
+        <selector>#footer</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="footer_text"
+      default="#5d5d5d"
+      label="Footer Text Color"
+      desc=""
+    >
+      <style>
+        <selector>#footer</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="footer_title"
+      default="#3d3d3d"
+      label="Footer Title Color"
+      desc=""
+    >
+      <style>
+        <selector>#footer .footer-main h2, #footer .footer-main h3, #footer .footer-main h4</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="footer_bottom_bg"
+      default="#f7f7f7"
+      label="Footer Bottom Background"
+      desc=""
+    >
+      <style>
+        <selector>#footer .footer-bottom</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+  </footer>
+  
+  <content>
+    <variable
+      name="content_bg"
+      default="#f7f7f7"
+      label="Content Background"
+      desc=""
+    >
+      <style>
+        <selector>#wrapper</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="title_color"
+      default="#3d3d3d"
+      overwrite="general" overwrite_variable="color_text_bold"
+      label="Title Color"
+      desc=""
+    >
+      <style>
+        <selector>h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title-block, .column-title, .typo .column-title, .column-title a, .typo .column-title a, .page-heading, .page-subheading, .nav-tabs .nav-item .nav-link.active:focus, .nav-tabs .nav-item .nav-link.active:hover, .aone-tabs .dot-line-tabs .dot-line, label, .label, .nav-item .nav-link, .nav-item .nav-link.active, .product-accordions .panel .panel-heading .panel-title a, .banner1 span:not(.btn)</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="icon_color"
+      default="#fd6282"
+      overwrite="general" overwrite_variable="color_pink"
+      label="Icon Color"
+      desc=""
+    >
+      <style>
+        <selector>.aone-tabs .nav-tabs .separator:after, .aone-tabs .nav-tabs .separator:before</selector>
+        <property>border-right-color</property>
+      </style>
+      <style>
+        <selector>.aone-tabs .nav-tabs .separator:after, .aone-tabs .nav-tabs .separator:before</selector>
+        <property>border-left-color</property>
+      </style>
+      <style>
+        <selector>.modal-header .close:hover, .add-to-cart.added:after, .main-product-details .scroll-box-arrows .left, .main-product-details .scroll-box-arrows .right, .slick-prev, .slick-next, .nivo-controlNav a, .aone-popupnewsletter button.close, #footer .scroll-to-top-button a</selector>
+        <property>background-color</property>
+      </style>
+      <style>
+        <selector>.product-list .product-miniature .grid-hover .grid-hover-btn a, section.checkout-step .step-number, .active-filters .filter-block .material-icons, .main-product-details .product-cover .layer .zoom-in, #product-modal .arrows, .block-reassurance img, .st-menu-close:hover, .theme-default .nivo-directionNav a, .theme-default .nivo-directionNav a:hover</selector>
+        <property>color</property>
+      </style>
+      <style>
+        <selector>.nivo-controlNav a.active</selector>
+        <property>border-color</property>
+      </style>
+    </variable>
+    <variable
+      name="button_text_color"
+      default="#ffffff"
+      label="Button Text Color"
+      desc=""
+    >
+      <style>
+        <selector>.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary.active,   .show > .btn-primary.dropdown-toggle, .btn.btn-primary, .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled.focus, .btn.btn-primary:disabled:hover, .btn.btn-primary:disabled:focus, .btn.btn-primary:disabled.focus, .add-to-cart, .add-to-cart:hover, .add-to-cart:focus, .add-to-cart.focus, .add-to-cart:active, .add-to-cart.active, .add-to-cart.disabled:hover, .add-to-cart.disabled:focus, .add-to-cart.disabled.focus, .add-to-cart:disabled:hover, .add-to-cart:disabled:focus, .add-to-cart:disabled.focus, #header .mobile-left-nav-trigger .left-nav-icon, #header .mobile-left-nav-trigger .left-nav-icon:hover, #header .mobile-left-nav-trigger .left-nav-icon:focus, #header .mobile-left-nav-trigger .left-nav-icon.focus, #header .mobile-left-nav-trigger .left-nav-icon:active, #header .mobile-left-nav-trigger .left-nav-icon.active, #header .mobile-left-nav-trigger .left-nav-icon.disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon.disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon.disabled.focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon:disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled.focus</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="button_bg_color"
+      default="#5a9e74"
+      overwrite="general" overwrite_variable="color_text_bold"
+      label="Button Background Color"
+      desc=""
+    >
+      <style>
+        <selector>.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active,   .show > .btn-outline-primary.dropdown-toggle, .btn.btn-primary, .btn.btn-primary.disabled:hover, .btn.btn-primary.disabled:focus, .btn.btn-primary.disabled.focus, .btn.btn-primary:disabled:hover, .btn.btn-primary:disabled:focus, .btn.btn-primary:disabled.focus, .add-to-cart, .add-to-cart.disabled:hover, .add-to-cart.disabled:focus, .add-to-cart.disabled.focus, .add-to-cart:disabled:hover, .add-to-cart:disabled:focus, .add-to-cart:disabled.focus, #header .mobile-left-nav-trigger .left-nav-icon, #header .mobile-left-nav-trigger .left-nav-icon.disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon.disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon.disabled.focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled:hover, #header .mobile-left-nav-trigger .left-nav-icon:disabled:focus, #header .mobile-left-nav-trigger .left-nav-icon:disabled.focus</selector>
+        <property>background-color</property>
+      </style>
+      <style>
+        <selector>.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .btn-outline-primary, .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary.active,   .show > .btn-outline-primary.dropdown-toggle, .card-outline-primary</selector>
+        <property>border-color</property>
+      </style>
+      <style>
+        <selector>.btn-outline-primary, .btn-outline-primary.disabled, .btn-outline-primary:disabled</selector>
+        <property>color</property>
+      </style>
+
+      <style darken="10">
+        <selector>.btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active, .add-to-cart:hover, .add-to-cart:focus, .add-to-cart.focus, .add-to-cart:active, .add-to-cart.active, #header .mobile-left-nav-trigger .left-nav-icon:hover, #header .mobile-left-nav-trigger .left-nav-icon:focus, #header .mobile-left-nav-trigger .left-nav-icon.focus, #header .mobile-left-nav-trigger .left-nav-icon:active, #header .mobile-left-nav-trigger .left-nav-icon.active</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="disable_border_radius"
+      type="switch"
+      default="0"
+      label="Disable Border Radius"
+      desc="Remove all the rounded corners in the front-end."
+    >
+    </variable>
+    <variable
+      name="disable_box_shadow"
+      type="switch"
+      default="0"
+      label="Disable Box Shadow"
+      desc="Remove all the shadows effect in the front-end."
+      not_change_group_class="1"
+    >
+    </variable>
+    <variable
+      name="background_block_title"
+      type="switch"
+      default="0"
+      label="Background for Block Title"
+      desc="Enable a background for block title, column block title and tab header."
+    >
+    </variable>
+    <variable
+      name="text_color_block_title"
+      default="#3d3d3d"
+      label="Text Color for Block Title"
+      desc="Change the text color for block title, column block title and tab header."
+      not_change_group_class="1"
+    >
+      <style>
+        <selector>.background-for-title .title-block, .background-for-column-title .column-title, .background-for-column-title .typo .column-title, .background-for-tab-title .aone-tabs .nav-tabs, .background-for-tab-title .product-accordions .panel .panel-heading a, .background-for-tab-title .nav-item .nav-link, .background-for-tab-title .nav-item .nav-link.active, .background-for-tab-title .nav-tabs .nav-item .nav-link.active:focus, .background-for-tab-title .nav-tabs .nav-item .nav-link.active:hover</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="background_color_block_title"
+      default="#ffffff"
+      label="Background Color for Block Title"
+      desc="Change the background color for block title, column block title and tab header."
+      not_change_group_class="1"
+    >
+      <style>
+        <selector>.background-for-title .title-block, .background-for-column-title .column-title, .background-for-column-title .typo .column-title, .background-for-tab-title .aone-tabs .nav-tabs, .background-for-tab-title .product-accordions .panel .panel-heading, .background-for-tab-title .product-tabs .nav-tabs .nav-item .nav-link, .background-for-tab-title .product-tabs .nav-tabs .nav-item .nav-link.active:before</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+  </content>
+  
+  <product>
+    <variable
+      name="background"
+      default="#ffffff"
+      label="Product Background"
+      desc=""
+    >
+      <style>
+        <selector>.product-list-wrapper:not(.thumbnail-top):not(.thumbnail-left) .product-style .product-container</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="name"
+      default="#3d3d3d"
+      overwrite="general" overwrite_variable="color_text_bold"
+      label="Product Name Color"
+      desc=""
+    >
+      <style>
+        <selector>.product-name</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="name_background"
+      default="#f7f7f7"
+      overwrite="general" overwrite_variable="color_gray"
+      label="Product Name Background"
+      desc=""
+    >
+      <style>
+        <selector>.product-list .grid .product-miniature .second-block .product-name</selector>
+        <property>background-color</property>
+      </style>
+    </variable>
+    <variable
+      name="price_color"
+      default="#fd6282"
+      overwrite="general" overwrite_variable="color_pink"
+      label="Product Price Color"
+      desc=""
+    >
+      <style>
+        <selector>.product-price, .price-total</selector>
+        <property>color</property>
+      </style>
+    </variable>
+    <variable
+      name="old_price_color"
+      default="#6f6f6f"
+      overwrite="general" overwrite_variable="color_text_light"
+      label="Product Old Price Color"
+      desc=""
+    >
+      <style>
+        <selector>.regular-price</selector>
+        <property>color</property>
+      </style>
+    </variable>
+  </product>
+  
+  <fonts>
+    <variable
+      name="main_font"
+      default="Roboto"
+      label="Main Font Name"
+      desc=""
+    >
+      <style>
+        <selector>body, .view-all-link, .product-name</selector>
+        <property>font-family</property>
+      </style>
+    </variable>
+    <variable
+      name="title_font"
+      default="Roboto Condensed"
+      overwrite="fonts" overwrite_variable="main_font"
+      label="Title Font Name"
+      desc=""
+    >
+      <style>
+        <selector>h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .title-block, .column-title, .typo .column-title, .page-heading, .page-subheading, .nav-item .nav-link, .anav-top .amenu-link</selector>
+        <property>font-family</property>
+      </style>
+    </variable>
+    <variable
+      name="font_size"
+      default="13px"
+      label="Body Font Size"
+      desc="Font size of the body text. Ex: 13px"
+    >
+      <style>
+        <selector>body</selector>
+        <property>font-size</property>
+      </style>
+    </variable>
+  </fonts>
+</colors>

@@ -1,0 +1,16 @@
+span.reduction 
+{
+    float:left;
+    font-weight:bold;
+    font-size:12px;
+    color:#fff;
+    display:block;
+    padding:1px 10px 1px 15px;
+    background:url(../img/bg_reduction.png) no-repeat 0 0;
+    border:0px solid;
+    border-radius:5px;
+    box-shadow: 10px 7px 5px #888888;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+

@@ -1,0 +1,83 @@
+#aone-popup-newsletter-modal {
+  .modal-dialog {
+    margin-top: 10%;
+  }
+  .modal-content {
+    border-radius: 0;
+  }
+  .modal-body {
+    padding: 8px;
+  }
+}
+.aone-popupnewsletter {
+  position: relative;
+  z-index: 1;
+  color: $text-color;
+  button.close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    font-size: 14px;
+    border-radius: 0;
+    opacity: 1;
+    background: $icon-color;
+    color: $light-text-color;
+    text-shadow: none;
+    i {
+      vertical-align: top;
+    }
+  }
+  .popup-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+  }
+  .popup-content {
+    padding: 15px 20px 35px;
+    max-width: 360px;
+    text-align: center;
+  }
+  .block-newsletter {
+    h4 {
+      display: none;
+    }
+    .form-control {
+      background: $light-background;
+      border-color: transparent;
+      border-radius: 0;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      -webkit-box-shadow: 0 0 0px 1000px $light-background inset;
+    }
+    .input-btn {
+      margin-top: 10px;
+      display: block;
+    }
+    .newsletter-message {
+      .conditons {
+        display: none;
+      }
+    }
+  }
+  .noshow {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: 0;
+    text-transform: uppercase;
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+    i {
+      margin-right: 3px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="1114f83bc04d9ac8cdb6accff6f21c55">
+        <source>No Dropdown</source>
+        <target>No Dropdown</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:63</note>
+      </trans-unit>
+      <trans-unit id="1afd32818d1c9525f82aff4c09efd254">
+        <source>column</source>
+        <target>column</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:66</note>
+      </trans-unit>
+      <trans-unit id="54ca84a794888fe8d92834787dfa935a">
+        <source>columns</source>
+        <target>columns</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:63</note>
+      </trans-unit>
+      <trans-unit id="af1b98adf7f686b84cd0b443e022b7a0">
+        <source>Categories</source>
+        <target>Categories</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:69</note>
+      </trans-unit>
+      <trans-unit id="068f80c7519d0528fb08e82137a72131">
+        <source>Products</source>
+        <target>Products</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:71</note>
+      </trans-unit>
+      <trans-unit id="512923e3b931df3400cc06287e7541cc">
+        <source>Custom HTML</source>
+        <target>Custom HTML</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:73</note>
+      </trans-unit>
+      <trans-unit id="2377be3c2ad9b435ba277a73f0f1ca76">
+        <source>Manufacturers</source>
+        <target>Manufacturers</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:75</note>
+      </trans-unit>
+      <trans-unit id="a100ce579d1ed4c3761ff37c1988bef3">
+        <source>No Content</source>
+        <target>No Content</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/_configure/helpers/list/list_content.tpl:77</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/dropdown-list-message.tpl" source-language="it-IT" target-language="it-IT" datatype="plaintext">
+    <body>
+      <trans-unit id="410e17a664e3ca79986b7e4032331050">
+        <source>Dropdown Contents</source>
+        <target>Dropdown Contents</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/dropdown-list-message.tpl:27</note>
+      </trans-unit>
+      <trans-unit id="6da8ee99e50120ae2191ec7134d5ed70">
+        <source>You have to ENABLE the "Dropdown Menu Columns" option.</source>
+        <target>You have to ENABLE the "Dropdown Menu Columns" option.</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/dropdown-list-message.tpl:30</note>
+      </trans-unit>
+      <trans-unit id="8a47ec878257340b87ebb346caf0be17">
+        <source>You have to SAVE this menu before adding a dropdown content.</source>
+        <target>You have to SAVE this menu before adding a dropdown content.</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/dependencies/modules/zonemegamenu/views/templates/admin/dropdown-list-message.tpl:32</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

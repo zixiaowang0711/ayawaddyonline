@@ -1,0 +1,43 @@
+.quickview {
+  .modal-dialog {
+    width: 90%;
+    max-width: 940px;
+    margin: 3% auto;
+    @include media-breakpoint-down(sm) {
+      max-width: 520px;
+    }
+  }
+  .modal-content {
+    background: $light-background;
+  }
+  .modal-header {
+    border: none;
+    padding: 2px;
+    .close {
+      margin-top: 0;
+      margin-right: 0;
+    }
+  }
+  .modal-body {
+  }
+  .modal-footer {
+    border-top: 1px solid $border-color;
+  }
+  .main-product-details {
+    .product-cover .layer {
+      display: none !important;
+    }
+  }
+  .view-details {
+    margin: 5px 0;
+  }
+  .social-sharing {
+    margin: 5px 0;
+    label {
+      display: none;
+    }
+  }
+  .block-reassurance {
+    margin-bottom: 20px;
+  }
+}

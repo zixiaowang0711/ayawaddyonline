@@ -1,0 +1,66 @@
+#content .error {
+    background: #FFBABA url(../img/admin/icon-cancel.png) no-repeat scroll 6px 6px;
+    border: 1px solid #CC0000 !important;
+    color: #D8000C;
+}
+
+.alert {
+    padding-left: 50px!important;
+}
+
+.category-filter {
+    padding: 0!important;
+}
+
+#module_form input[type="text"],#module_form input[type="search"],#module_form input[type="password"] {
+    display: block;
+    width: 100%;
+    height: 31px;
+    padding: 6px 8px;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #F5F8F9;
+    background-image: none;
+    border: 1px solid #C7D6DB;
+    border-radius: 3px;
+}
+
+.icon-info-circle::before, .icon-info-sign::before {
+    content: "";
+}
+
+#module_form fieldset {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d3d8db;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#module_form legend {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #555;
+    height: 32px;
+    border: none;
+    font-size: 1.2em;
+    line-height: 2.2em;
+    height: 2.2em;
+    text-transform: uppercase;
+    border: solid 1px #d3d8db;
+    padding: 0 0 0 15px;
+    margin: -20px -16px 10px -5px;
+    border-radius: 5px;
+    background-color: #eee!important;
+}
+
+#informations ul {
+    list-style: initial;
+    padding-left: 40px;
+}

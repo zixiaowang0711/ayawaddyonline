@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="/Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_socialfollow/ps_socialfollow.tpl" source-language="pl-PL" target-language="pl-PL" datatype="plaintext">
+    <body>
+      <trans-unit id="d918f99442796e88b6fe5ad32c217f76">
+        <source>Follow us</source>
+        <target>Bądź na bieżąco</target>
+        <note>Context:
+File: /Applications/XAMPP/xamppfiles/htdocs/zone/web/themes/ZOneTheme/modules/ps_socialfollow/ps_socialfollow.tpl:29</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
