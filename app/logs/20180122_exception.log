@@ -1,0 +1,2 @@
+*ERROR* 	v1.7.2.4	2018/01/22 - 04:47:09: Identifier or table format not valid for class Shop at line 217 in file classes/ObjectModel.php
+*ERROR* 	v1.7.2.4	2018/01/22 - 04:52:58: Shop not found at line 418 in file classes/shop/Shop.php
