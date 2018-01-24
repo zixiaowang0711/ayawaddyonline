@@ -10,6 +10,7 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
+#Domain: www.ayawaddyonline.com
 #Domain: http://localhost/lastaya/
 RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule . - [E=REWRITEBASE:/lastaya/]
