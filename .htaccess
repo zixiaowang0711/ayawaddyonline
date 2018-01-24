@@ -11,9 +11,7 @@ RewriteEngine on
 
 
 #Domain: www.ayawaddyonline.com
-#Domain: http://localhost/lastaya/
 RewriteRule . - [E=REWRITEBASE:/]
-RewriteRule . - [E=REWRITEBASE:/lastaya/]
 RewriteRule ^api$ api/ [L]
 
 RewriteRule ^api/(.*)$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]
