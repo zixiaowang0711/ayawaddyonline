@@ -313,7 +313,7 @@ abstract class DbCore
         $this->user = $user;
         $this->password = $password;
         $this->database = $database;
-        $this->is_cache_enabled = (defined('_PS_CACHE_ENABLED_')) ? _PS_CACHE_ENABLED_ : false;
+        $this->is_cache_enabled = false;//(defined('_PS_CACHE_ENABLED_')) ? _PS_CACHE_ENABLED_ : false;
 
         if (!defined('_PS_DEBUG_SQL_')) {
             define('_PS_DEBUG_SQL_', false);

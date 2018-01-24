@@ -1,0 +1,5 @@
+*ERROR* 	v1.7.2.4	2018/01/23 - 03:43:49: Link to database cannot be established:SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+ at line 102 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.2.4	2018/01/23 - 04:55:21: Identifier or table format not valid for class Shop at line 217 in file classes/ObjectModel.php
+*ERROR* 	v1.7.2.4	2018/01/23 - 04:56:08: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.2.4	2018/01/23 - 05:04:38: Shop not found at line 418 in file classes/shop/Shop.php

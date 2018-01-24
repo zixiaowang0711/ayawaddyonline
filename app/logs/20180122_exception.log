@@ -1,2 +1,16 @@
 *ERROR* 	v1.7.2.4	2018/01/22 - 04:47:09: Identifier or table format not valid for class Shop at line 217 in file classes/ObjectModel.php
 *ERROR* 	v1.7.2.4	2018/01/22 - 04:52:58: Shop not found at line 418 in file classes/shop/Shop.php
+*ERROR* 	v1.7.2.4	2018/01/22 - 16:38:51: No database selected<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM ps_shop_url su
+                    LEFT JOIN ps_shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = 'localhost' OR su.domain_ssl = 'localhost')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php
+*ERROR* 	v1.7.2.4	2018/01/22 - 16:39:21: Table 'ayawaddyonline.shop_url' doesn't exist<br /><br /><pre>SELECT s.id_shop, CONCAT(su.physical_uri, su.virtual_uri) AS uri, su.domain, su.main
+                    FROM shop_url su
+                    LEFT JOIN shop s ON (s.id_shop = su.id_shop)
+                    WHERE (su.domain = 'localhost' OR su.domain_ssl = 'localhost')
+                        AND s.active = 1
+                        AND s.deleted = 0
+                    ORDER BY LENGTH(CONCAT(su.physical_uri, su.virtual_uri)) DESC</pre> at line 744 in file classes/db/Db.php

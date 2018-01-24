@@ -10,8 +10,8 @@ SetEnv HTTP_MOD_REWRITE On
 RewriteEngine on
 
 
-#Domain: www.ayawaddyonline.com
-RewriteRule . - [E=REWRITEBASE:/]
+#Domain: http://localhost/lastaya/
+RewriteRule . - [E=REWRITEBASE:/lastaya/]
 RewriteRule ^api$ api/ [L]
 
 RewriteRule ^api/(.*)$ %{ENV:REWRITEBASE}webservice/dispatcher.php?url=$1 [QSA,L]

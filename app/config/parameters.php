@@ -1,11 +1,11 @@
 <?php return array (
   'parameters' => 
   array (
-    'database_host' => '127.0.0.1',
+    'database_host' => 'localhost',
     'database_port' => '',
     'database_name' => 'ayawaddyonline',
-    'database_user' => 'admin',
-    'database_password' => 'Mcbec789654.',
+    'database_user' => 'root',  //admin
+    'database_password' => '', //Mcbec789654.
     'database_prefix' => 'ps_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',

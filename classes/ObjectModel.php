@@ -209,7 +209,7 @@ abstract class ObjectModelCore implements \PrestaShop\PrestaShop\Core\Foundation
      */
     public function __construct($id = null, $id_lang = null, $id_shop = null, $translator = null)
     {
-        $class_name = get_class($this);
+        $class_name = get_class($this);  //var_dump($class_name); exit;
         if (!isset(ObjectModel::$loaded_classes[$class_name])) {
             $this->def = ObjectModel::getDefinition($class_name);
             $this->setDefinitionRetrocompatibility();
@@ -1910,6 +1910,8 @@ abstract class ObjectModelCore implements \PrestaShop\PrestaShop\Core\Foundation
         }
 
         return Cache::retrieve($cache_id);
+
+        // return false;
     }
 
     /**

@@ -113,11 +113,11 @@ if (!isset($_SERVER['HTTP_HOST']) || empty($_SERVER['HTTP_HOST'])) {
     $_SERVER['HTTP_HOST'] = @getenv('HTTP_HOST');
 }
 
-$context = Context::getContext();
+$context = Context::getContext(); 
 
 /* Initialize the current Shop */
 try {
-    $context->shop = Shop::initialize();
+    $context->shop = Shop::initialize();  //print "<pre>"; print_r($context->shop); print "</pre>"; exit;
 } catch (PrestaShopException $e) {
     $e->displayMessage();
 }
