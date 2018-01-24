@@ -11,6 +11,7 @@ RewriteEngine on
 
 
 #Domain: http://localhost/lastaya/
+RewriteRule . - [E=REWRITEBASE:/]
 RewriteRule . - [E=REWRITEBASE:/lastaya/]
 RewriteRule ^api$ api/ [L]
 
