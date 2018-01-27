@@ -3405,14 +3405,14 @@ $(document).ready(function()
 				if ($('#name_field_tbody').is(':visible') && lcp_primary_settings.name_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(name, lcp.l("name"), 3, 50);
 				if ($('#email_field_tbody').is(':visible') && lcp_primary_settings.email_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(email, lcp.l("email"), 3, 50);
 				if ($('#phone_field_tbody').is(':visible') && lcp_primary_settings.phone_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(phone, lcp.l("phone"), 3, 20);
-				if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 3, 500);
+				if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 2, 500);
 			}
 			else
 			{
 				if ($('#name_field_tbody').is(':visible') && lcp_primary_settings.name_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(name, lcp.l("name"), 3, 50);
 				if ($('#email_field_tbody').is(':visible') && lcp_primary_settings.email_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(email, lcp.l("email"), 3, 50);
 				if ($('#phone_field_tbody').is(':visible') && lcp_primary_settings.phone_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(phone, lcp.l("phone"), 3, 20);
-				if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 3, 500);
+				if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 2, 500);
 			}
 
 			if (valid)
