@@ -3450,6 +3450,76 @@ $(document).ready(function()
 				$("#error_tr").show();
 			}
 		});
+		
+		/** start the chat when enter into the textarea at frist time
+		**  Add by thandar 27-Jan 2018
+		**/
+		$(document).on('keydown', '#lcp_question', function(e){
+			var key = e.which;
+			if(key == 13)  // the enter key code
+			{
+			   var name = $("#lcp_name"),
+				email = $("#lcp_email"),
+				phone = $("#lcp_phone"),
+				/*department = $( "#department" ),*/
+				question = $("#lcp_question"),
+				all_fields = $([]).add(name).add(email).add(phone).add(question);
+				all_fields.removeClass("ui-state-error");
+				var valid = true;
+
+				if (lcp_chat_status == 'offline')
+				{
+					if ($('#name_field_tbody').is(':visible') && lcp_primary_settings.name_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(name, lcp.l("name"), 3, 50);
+					if ($('#email_field_tbody').is(':visible') && lcp_primary_settings.email_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(email, lcp.l("email"), 3, 50);
+					if ($('#phone_field_tbody').is(':visible') && lcp_primary_settings.phone_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(phone, lcp.l("phone"), 3, 20);
+					if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_offline_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 2, 500);
+				}
+				else
+				{
+					if ($('#name_field_tbody').is(':visible') && lcp_primary_settings.name_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(name, lcp.l("name"), 3, 50);
+					if ($('#email_field_tbody').is(':visible') && lcp_primary_settings.email_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(email, lcp.l("email"), 3, 50);
+					if ($('#phone_field_tbody').is(':visible') && lcp_primary_settings.phone_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(phone, lcp.l("phone"), 3, 20);
+					if ($('#question_field_tbody').is(':visible') && lcp_primary_settings.question_field_online_mandatory == 'Y') valid = valid && lcp.checkLength(question, lcp.l("question"), 2, 500);
+				}
+
+				if (valid)
+				{
+					$("#error_tr").hide();
+					$("#before_chat_div").hide();
+					$("#start_chat_div").show(); 
+					$("#start_chat_div").html('<div id="be_patient" style="height: '+((lcp.empty(lcp_primary_settings.height)) ? '350' : lcp_primary_settings.height) +'px">'+lcp.l('A representative will be connected, please be patient.')+'</div>');
+					$("#be_patient").show();
+					//$('#lcp_chat_wrapper').css('height', (parseInt(lcp_chat_height) - parseInt($('#chat_msg_textarea_div')[0].style.height)) + 'px');
+					var data = {
+						'name': $('#lcp_name').val(),
+						'email': $('#lcp_email').val(),
+						'phone': $('#lcp_phone').val(),
+						'department': $('#departments').val(),
+						'question': $('#lcp_question').val(),
+						'id_department': $('#departments').val(),
+						'id_visitor': lcp_id_visitor,
+					};
+
+					var params = {
+						'load': 'chatRequestFromClient',
+						'divs': null,
+						'params':
+						{
+							'data': data,
+						},
+					};
+					lcp.ajaxController(params, function(result) {
+
+					}, true);
+				}
+				else
+				{
+					$("#error_tr").show();
+				}
+				return false;   
+			} // end if(key == 13)
+		});		
+		/** End 27-Jan 2018 **/
 
 		
 		$(document).on('click', '#send_msg_a', function()
