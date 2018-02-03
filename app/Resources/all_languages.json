@@ -610,5 +610,14 @@
     "is_rtl": "0",
     "language_code": "zh-cn",
     "locale": "zh-CN"
+  },
+  "mm": {
+    "name": "ျမန္မာ (Myanmar)",
+    "iso_code": "mm",
+    "date_format_lite": "Y-m-d",
+    "date_format_full": "Y-m-d H:i:s",
+    "is_rtl": "0",
+    "language_code": "my-mm",
+    "locale": "my-MM"
   }
 }
