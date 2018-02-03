@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<localizationPack name="Myanmar">
+  <currencies>
+    <currency name="Kyat" iso_code="MMR" iso_code_num="458" sign="MMK" blank="0" conversion_rate="1.000000" format="1" decimals="1"/>
+  </currencies>
+  <languages>
+    <language iso_code="mm"/>
+  </languages>
+  <taxes>
+    <taxRulesGroup name="Myanmar Sales Tax Standard Rate">
+      <taxRule iso_code_country="mm" behavior="0" id_tax="1"/>
+    </taxRulesGroup>
+    <taxRulesGroup name="Myanmar Sales Tax Reduced Rate">
+      <taxRule iso_code_country="mm" behavior="0" id_tax="2"/>
+    </taxRulesGroup>
+    <taxRulesGroup name="Myanmar Service Tax">
+      <taxRule iso_code_country="mm" behavior="0" id_tax="3"/>
+    </taxRulesGroup>
+    <tax id="60" name="Myanmar Sales Tax Standard Rate" rate="10.000"/>
+    <tax id="61" name="Myanmar Sales Tax Reduced Rate" rate="5.000"/>
+    <tax id="62" name="Myanmar Service Tax" rate="6.000"/>
+  </taxes>
+  <states>
+    <state name="Sagaing" iso_code="MM-01" country="MM" zone="Asia" tax_behavior="0" />
+    <state name="Bago" iso_code="MM-02" country="MM" zone="Asia" tax_behavior="0" />  
+    <state name="Magway" iso_code="MM-03" country="MM" zone="Asia" tax_behavior="0" /> 
+    <state name="Mandalay" iso_code="MM-04" country="MM" zone="Asia" tax_behavior="0" /> 
+    <state name="Taninthayi" iso_code="MM-05" country="MM" zone="Asia" tax_behavior="0" /> 
+    <state name="Yangon" iso_code="MM-06" country="MM" zone="Asia" tax_behavior="0" />  
+    <state name="Ayeyawady" iso_code="MM-07" country="MM" zone="Asia" tax_behavior="0" />
+  </states>
+  <units>
+    <unit type="weight" value="kg"/>
+    <unit type="volume" value="L"/>
+    <unit type="short_distance" value="cm"/>
+    <unit type="base_distance" value="m"/>
+    <unit type="long_distance" value="km"/>
+  </units>
+</localizationPack>
